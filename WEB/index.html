@@ -19,8 +19,8 @@
           <div class="hamburger"><div class="bar"></div></div><!-- Para hacer la animación del menú en forma de hamburguesa -->
           <ul><!-- Ul significa unordered list y lo que vamos a hacer va a ser crear una especie de menú con listas clickables -->
             <li><a href="#hero" data-after="Home">Home</a></li><!-- Con data-after estamos creando una variable que vamos a utilizar después en el css para crear el efecto en el menú del header -->
-            <li><a href="#services" data-after="Services">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#Bio" data-after="Bio">Bio</a></li>
+            <li><a href="#projects" data-after="Data">Data</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
@@ -43,110 +43,122 @@
  </section>
  <!-- End Hero Section -->
 
- <!-- Service Section -->
- <section id="services">
-    <div class="services container"><!-- Ponemos la clase del container de arriba para poder usar después flex y referenciar el formato -->
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
-          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
-          voluptatum explicabo!</p>
+ <!-- bio Section -->
+ <section id="Bio">
+    <div class="Bio container"><!-- Ponemos la clase del container de arriba para poder usar después flex y referenciar el formato -->
+      <div class="bio-top">
+        <h1 class="section-title">B<span>i</span>O</h1>
+        <p class= "section-title-p"><span>H</span>i, I'm Gabriel. I'm 22 years old, and I was born in Alicante (Spain). I just earned my degree in Environmental Sciences so 
+           it would be fair to say that I'm an Environmental Scientist! During the process of working on my TFG (Thesis of Final Project), I got really interested
+           in the world of data analysis, and since then, I've been self-teaching myself the most important aspects of it.    
+           I've always been a hard-working person and I intend to remain that way until I'm out of breath! Here are some of my hobbies:
+        </p>
       </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div><!-- Imagen cogida de internet, copia la barra de búsqueda -->
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
+      <div class="bio-bottom">
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=80&id=fZ3sQAZigZRg&format=png" /></div><!-- Imagen cogida de internet, copia la barra de búsqueda -->
+          <h2 class="hobbie-title"><span>SPORTS</span></h2>
+          <p>I enjoy doing any kind of sports. I'm a big fan of soccer , and I also find playing ping pong really interesting. I'm 
+            quite competitive when it comes to playing against my opponent...
+          </p>
         </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=80&id=9N5elasGFyRq&format=png" /></div>
+          <h2 class="hobbie-title"><span>STORM OBSERVER</span></h2>
+          <p>I'm obsessed with storms. I love staring at them and also tracking them. 
+             I live in a place where storms are quite common, so you could say that I'm lucky.
+          </p>
         </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=80&id=kYULvJBiQzEM&format=png" /></div>
+          <h2 class="hobbie-title"><span>HIKING</span></h2>
+          <p>One of the best ways to take in the scenery of nature is by hiking. Since I was a child, I've always liked walking with my family 
+            through different mountains and forests. </p>
         </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
-            architecto placeat beatae tenetur officia quod</p>
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=64&id=kikfxBGRtDDm&format=png" /></div>
+          <h2 class="hobbie-title"><span>F1</span></h2>
+          <p>I'm really keen on F1. I got really into it in 2015 when Fernando Alonso signed for Mclaren-Honda. I really enjoy watching cars taking corners at speeds over 200 Km/h!</p>
         </div>
       </div>
     </div>
   </section>
- <!-- End Service Section -->
+ <!-- End bio Section -->
 
  <!-- Projects Section -->
  <section id="projects">
   <div class="projects container"><!-- El container incluye dentro todas las clases que vamos a poner, es por eso que el formato que le pongamos va a ser muy importante -->
     <div class="projects-header">
-      <h1 class="section-title">Recent <span>Projects</span></h1><!-- Nombramos la clase igual que la de la sección de servicios para que los títulos tengan parecido formato -->
+      <h1 class="section-title">Recent <span>Work</span></h1><!-- Nombramos la clase igual que la de la sección de servicios para que los títulos tengan parecido formato -->
     </div>
     <div class="all-projects">
       <div class="project-item">
         <div class="project-info">
-          <h1>Project 1</h1>
-          <h2>Coding is Love</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          <h1 class="title1"><span>Excel</span></h1>
+          <h2>Intermediate - Advanced Level</h2>
+          <p>I've been using Excel pretty much since my school days, but things got more serious in college where I started to learn more about 
+             the main functions and also the best ways of visualizing data. What really made me break a sweat was the elaboration of my TFG,
+             where I had to deal with more than 20.000 rows of data! (that was a lot for me, considering my basic level of Excel).
+             I had to learn better ways of cleaning data and organizing it.</p>
+          <p>I completed a 3.5-hour Advanced Excel course, where I learned about dynamic arrays as well as functions like XLOOKUP,XMATCH,TWO-WAY-LOOKUPS,
+             CHOOSE,SWITCH, and all types of rounding. I also completed a course about pivot tables and another one related with data cleaning (both were an 1 hour long).</p>
         </div>  
         <div class="project-img">
-          <img src="./img/img-1.png" alt="img"><!-- Alt means alternative -->
+          <img src="./img/Excel.png" alt="img"><!-- Alt means alternative -->
         </div>
       </div>
       <div class="project-item">
         <div class="project-info">
-          <h1>Project 2</h1>
-          <h2>Coding is Love</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          <h1 class="title1"><span>SQL</span></h1>
+          <h2>Basic - Intermediate Level</h2>
+          <p>During my academic career I never made use of SQL. When I started to search for the requirements for becoming a Data Analyst, I found out that 
+             having a decent knowledge of SQL was needed, that's why I completed two online SQL courses, one lasting 4 hours and the other 20 hours. 
+          </p>
+          <p>In these courses I learned about the creation of tables, data types,
+            writing basic query using UPDATE, DELETE, GROUP BY, ORDER BY as well as some more complicated queries using JOINS,UNIONS, nested queries...</p>
         </div>  
         <div class="project-img">
-          <img src="./img/img-1.png" alt="img"><!-- Alt means alternative -->
+          <img src="./img/SQL.png" alt="img"><!-- Alt means alternative -->
         </div>
       </div>
       <div class="project-item">
         <div class="project-info">
-          <h1>Project 3</h1>
-          <h2>Coding is Love</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          <h1 class="title1"><span>R Studio</span></h1>
+          <h2>Intermediate Level</h2>
+          <p>R Studio was the one that really got me into the world of data analysis, especially the visualization part of it. I was suggested a library called "openair" 
+             because my TFG was related to the topic of Air Pollution.
+          </p>
+          <p> Time went by and I found myself a bit limited with the functionality of this library, that's why 
+            I began to look out for more libraries ( a right choice). I got to know libraries like "tidyverse", "cowplot", "datarium" ... wich really helped me to take the next step 
+            in improving my graphic design and also structuring my datasets. The amount of libraries that you can find to visualize and clean your data is quite impressive.  </p>
         </div>  
         <div class="project-img">
-          <img src="./img/img-1.png" alt="img"><!-- Alt means alternative -->
+          <img src="./img/R.png" alt="img"><!-- Alt means alternative -->
         </div>
       </div>
       <div class="project-item">
         <div class="project-info">
-          <h1>Project 4</h1>
-          <h2>Coding is Love</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          <h1 class="title1"><span>Python</span></h1>
+          <h2>Basic Level</h2>
+          <p>Once I had completed the SQL course, I began a 16-hour Python course. Right away, I knew that this one was going to be a little bit more challenging, and I was spot on. 
+          </p>
+          <p>Python was more technical and also way more immersed into the "programming world". Here I learned about WHILE LOOPS, FOR LOOPS, LISTS, DICTIONARIES,FUNCTIONS, EXCEPTIONS, REGULAR EXPRESSIONS,METHODS,
+            PROPERTIES... (a lot!!). I also completed a shorter course about supervised and unsupervised machine learning (this one was even harder to follow along with). </p>
         </div>  
         <div class="project-img">
-          <img src="./img/img-1.png" alt="img"><!-- Alt means alternative -->
+          <img src="./img/Python.png" alt="img"><!-- Alt means alternative -->
         </div>
       </div>
       <div class="project-item">
         <div class="project-info">
-          <h1>Project 5</h1>
-          <h2>Coding is Love</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          <h1 class="title1"><span>Tableau and Power BI</span></h1>
+          <h2>Basic - Intermediate Level</h2>
+          <p>I completed a total of 8 hours of courses for both Tableau and Power BI platforms. I don't know why I wasn't told about these kind of programs in school or college; building charts 
+             and creating dashboards were way easier and also more eye-catching. What I noticed is that Tableau is better with the visualization aspect than Power BI, but the latter one is better 
+             with modelling thanks to Power Query, which makes data cleaning look easy. </p>
         </div>  
         <div class="project-img">
-          <img src="./img/img-1.png" alt="img"><!-- Alt means alternative -->
+          <img src="./img/Tableau.png" alt="img"><!-- Alt means alternative -->
         </div>
       </div>
     </div>
@@ -164,13 +176,15 @@
     </div>
     <div class="col-right">
       <h1 class="section-title">About <span>me</span></h1>
-      <h2>Front End Developer</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
-        repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
-        exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
-        Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
-        reprehenderit libero enim!</p>
-      <a href= "#" type="button" class="cta">Download Resume</a>
+      <h2>Environmental Scientist</h2>
+      <p>I earned my bachelor's degree at I.E.S Poeta Paco Mollà, achieving one of the top three highest marks in my class. I then embarked on my university journey at Universidad Miguel Hernández, 
+         majoring in Environmental Sciences. I spent 4 years doing this major, learning a lot about the characteristics of the different components in wich our enviornment is made out of as well as 
+         studying variety of ways to buffer the human impacts on it. "Atmospheric Aerosol and Radiation Dispersion: A Study of Hygroscopicity" was my TFG's title. The successful outcome of this project wouldn't have been 
+         possible without the support of some of my colleagues at the Applied Physics Department. All the effort put into this final project paid off after obtaining a honors degree with a mark of 9,3. 
+         Finally, my major's weighted average record stood at 8,54.  
+        </p>
+        <p>Finally, regarding my language skills, I've got a B2 Valenciano Level and a C1 CEFR Level in English.</p>
+      <a href= "#" type="button" class="cta">Download CV</a>
     </div>
   </div>
 </section>
@@ -185,23 +199,21 @@
         <div class="icon"><img src="https://img.icons8.com/?size=1x&id=dXdyQ8-cWXAs&format=png"/></div>
         <div class="contact-info">
           <h1>Phone</h1>
-          <h2>+1 234 123 1234</h2>
-          <h2>+1 234 123 1234</h2>
+          <h2>+34 618 375 998</h2>
         </div>
       </div>
       <div class="contact-item">
         <div class="icon"><img src="https://img.icons8.com/?size=1x&id=108813&format=png"/></div>
         <div class="contact-info">
           <h1>Email</h1>
-          <h2>info@gmail.com</h2>
-          <h2>abcd@gmail.com</h2>
+          <h2>gabrielfutsal3@gmail.com</h2>
         </div>
       </div>
       <div class="contact-item">
         <div class="icon"><img src="https://img.icons8.com/?size=1x&id=115626&format=png"/></div>
         <div class="contact-info">
           <h1>Address</h1>
-          <h2>Fatichhari, Chittagong, Bangladesh</h2>
+          <h2>Petrer, Alicante, Spain</h2>
         </div>
       </div>
     </div>
@@ -213,26 +225,26 @@
  <section id="footer">
   <div class="footer container">
     <div class="brand"><h1><span>G</span>abriel <span>B</span>ernabé</h1></div>
-    <h2>Your Complete Web Solution</h2>
+    <h2>Thank you for Stopping By!!!</h2>
     <div class="social-icon">
-      <div class="social-item">
-        <a href="#"><img src="https://img.icons8.com/?size=1x&id=118555&format=png">
+      <div class="social-item" title="+34 618 375 998">
+        <a href="#"><img src="https://img.icons8.com/?size=64&id=43677&format=png">
         </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
       </div>
-      <div class="social-item">
-        <a href="#"><img src="https://img.icons8.com/?size=1x&id=108646&format=png">
+      <div class="social-item" title="X">
+        <a href="https://twitter.com/Gabriel22910638" target="_blank"><img src="https://img.icons8.com/?size=64&id=bG29Ckcdp6YP&format=png">
         </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
       </div>
-      <div class="social-item">
-        <a href="#"><img src="https://img.icons8.com/?size=1x&id=109467&format=png">
+      <div class="social-item" title="Linkedin">
+        <a href="#"><img src="https://img.icons8.com/?size=64&id=44019&format=png">
         </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
       </div>
-      <div class="social-item">
-        <a href="#"><img src="https://img.icons8.com/?size=1x&id=Y6JKFKydve3L&format=png">
+      <div class="social-item" title="GitHub">
+        <a href="https://github.com/GabrielBG007" target="_blank"><img src="https://img.icons8.com/?size=64&id=52539&format=png">
         </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
       </div>
     </div>
-    <p>Copyright @ 2020 Gabriel. All rights reserved</p>
+    <p>Copyright @ 2023 Gabriel. All rights reserved</p>
   </div>
  </section>
  <!-- End Footer -->

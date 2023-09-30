@@ -27,7 +27,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-img {/* Con esto nos aseguramos que todas las img del html (ver services) ocupen el 100% del tamaño establecido */
+img {/* Con esto nos aseguramos que todas las img del html (ver Bio) ocupen el 100% del tamaño establecido */
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -36,7 +36,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
         font-size: 1.4rem;
         margin-top: 5px;
         line-height: 2.5rem;
-        font-weight: 300;
+        font-weight: 500;
         letter-spacing: .05rem;
         color: black;
     }
@@ -51,16 +51,16 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
     text-align: center;
 }
 .section-title span{
-    color: crimson;/* Para poner la i entre los span rojo */
+    color: #40e0d0;/* Para poner la i entre los span rojo */
 }
 /* Hacemos referencia al botón, porque pertenece al id=hero
     y pertenece a la clase cta */
 .cta {
     display: inline-block;/* Una caja de texto */
-    padding: 10px 30px;/* Espacio del texto con la caja */
+    padding: 10px 60px;/* Espacio del texto con la caja */
     color: white;
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid #40e0d0;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -73,7 +73,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
 .cta:hover{/* Aplicamos el hover(efecto al pasar sobre el botón) y las letras del texto se quedan en blanco y
         el fondo pasa a ser rojo */
     color: white;
-    background-color: crimson;
+    background-color: #40e0d0;
     }
 .brand h1{
     font-size: 3rem;
@@ -81,7 +81,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
     color: white;
 }
 .brand h1 span{
-    color: crimson;
+    color: #40e0d0;
 }
 /* Header Section */
 #header{/* # hace referencia al ID */
@@ -156,7 +156,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a{
-    color: crimson;
+    color: #40e0d0;
 }
 #header .hamburger{
     height: 60px;
@@ -179,7 +179,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 3px solid crimson;
+    border: 3px solid #40e0d0;
     animation: hamburger_puls 1s ease infinite;
 }
 #header .hamburger .bar{
@@ -217,7 +217,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
 /* Hero Section */
 /* Con #hero hacemos referencia al id=hero  y ponemos la imagen de fondo*/
 #hero {
-    background-image: url(./img/hero-bg.png);
+    background-image: url(./img/Mountains.png);
     background-size: cover;
     background-position: top center;
     position: relative; /* Position= relative significa que vamos a sobreponer otra imagen */
@@ -238,15 +238,15 @@ porque la primera tiene predominio. */
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .7;
+    opacity: .65;
     z-index: -1;
 }
 /* Procedemos a poner el texto en el lado izquierdo de la pantalla */
 #hero .hero {
     max-width: 1200px;/* Máximos píxeles que puede ocupar la pantall cuando la pongamos en pantalla completa */
     margin: 0 auto;
-    padding: 0 50px;
-    justify-content: flex-start;
+    padding:  0 50px;
+    justify-content:flex-start;
 }
 /* Texto de la sección, modificaciones */
 #hero h1 {
@@ -276,7 +276,7 @@ porque la primera tiene predominio. */
     left: 0;
     height: 100%;
     width: 0%;
-    background-color: crimson;
+    background-color: #40e0d0;
     animation: text_reveal_box 1s ease;
     animation-delay: .3s;
 }
@@ -294,28 +294,35 @@ porque la primera tiene predominio. */
 
 /* End Hero Section */
 
-/* Services Section */
+/* Bio Section */
 
-#services .services{/* Esto hace referencia al services.container */
+#Bio .Bio{/* Esto hace referencia al Bio.container */
     flex-direction: column;
-    text-align: center;/* Nos permite centrar el texto y los iconoss */
+    text-align: justify;/* Nos permite centrar el texto y los iconoss */
     /* Esta línea de comando permite que tengamos el formato del .container de más arriba. Añadimos column para que nos haga una columna con ese formato */
-    max-width: 1500px;
+    max-width: 1500x;
     margin: 0 auto;
     padding: 100px 0;/* El primer valor hacer referencia a la distancia arriba y abajo entre las secciones y el segundo valor con respecto a los márgenes. */
 }
-#services .service-top{
-    max-width: 500px;
-    margin: 0 auto;/* Se ajusta al margen de manera automática */
+#Bio .bio-top{
+    max-width: 700px;
+    margin: -20px 0 auto;
+/* Se ajusta al margen de manera automática */
 }
-#services .service-bottom{
+#Bio .bio-top .section-title-p span{
+    color: #40e0d0;
+    font-size: 60px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#Bio .bio-bottom{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;/* Hemos empapelado la clase entera. */
-    margin-top: 50px;
+    margin-top: 10px;
 }
-#services .service-item{
+#Bio .bio-item{
     flex-basis: 80%; /* Aplicamos una anchura a la clase del 80% */
     display: flex;
     align-items: flex-start;
@@ -323,16 +330,16 @@ porque la primera tiene predominio. */
     flex-direction: column;
     padding: 30px;
     border-radius: 10px; /* Forma circular de los bordes */
-    background-image: url(./img/img-1.png);
+    background-image: url(./img/Tree.png);
     background-size: cover;
     margin: 10px 5%; /* El porcentaje hace referencia al tamaño del margen */
     position: relative;
     z-index: 1;
-    overflow: hidden;/* Cuando añadimos el text-align: left en services .service-item p, los bordes redondos del marco 
+    overflow: hidden;/* Cuando añadimos el text-align: left en Bio .bio-item p, los bordes redondos del marco 
     de web design dejaron de serlo, por lo que aplicamos el overflow:hidden para que el contenido que haya fuera de 
     este bloque de comando no se tenga en cuenta, como que lo difuminamos. */
 }
-#services .service-item::after{/* Vamos a poner un cover sobre las imágenes anteriores, como hicimos al principio. */
+#Bio .bio-item::after{/* Vamos a poner un cover sobre las imágenes anteriores, como hicimos al principio. */
     content:"";
     position: absolute;/* Para que esté encima de las imágenes anteriores, por eso las de antes tienen position relative */
     left:0;
@@ -340,26 +347,29 @@ porque la primera tiene predominio. */
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .9;
-    z-index: -1;/* Ponemos -1 con respecto al 1 de la clase service.item para que se vean las letras */
+    opacity: 0.85;
+    z-index: -1;/* Ponemos -1 con respecto al 1 de la clase bio.item para que se vean las letras */
 }
-#services .service-bottom .icon{/* Para crear espacio entre los iconos y las letras */
+#Bio .bio-bottom .icon{/* Para crear espacio entre los iconos y las letras */
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
 }
-#services .service-item h2{
+#Bio .bio-item h2{
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-#services .service-item p{
+#Bio .bio-item p{
     color: white;
-    text-align: left;
+    text-align: justify;
+}
+#Bio .bio-bottom .bio-item .hobbie-title{
+    color:white
 }
 
-/*  End Services Section */
+/*  End Bio Section */
 
 /* Projects Section*/
 #projects .projects{
@@ -374,13 +384,13 @@ porque la primera tiene predominio. */
 #prjects .all-projects{
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: justify;
     flex-direction: column;
 }
 #projects .project-item{
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: justify;
     flex-direction: column;
     width: 80%;
     margin: 20px auto;
@@ -424,13 +434,16 @@ porque la primera tiene predominio. */
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .7;
+    opacity: .5;
 }
 #projects .project-item:hover .project-img img{/* Al pasar por una imágen de la clase project-item, nos hará zoom */
     transform: scale(1.1); 
 }
 #projects .project-img img{/* Permite que el zoom anterior tenga un efecto más lento */
     transition: .3s ease transform;
+}
+#projects .project-info .title1{
+    color:#40e0d0;
 }
 
 /* End Projects Section */ 
@@ -458,6 +471,7 @@ porque la primera tiene predominio. */
 }
 #about .col-right p{
     margin-bottom: 20px;
+    text-align: justify;
 }
 #about .col-right .cta{
     color: black;
@@ -478,9 +492,10 @@ porque la primera tiene predominio. */
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid crimson;
+    border: 7px solid #40e0d0;
     z-index: -1;
 }
+
 /* End About Section */
 /* Contact Section */
 #contact .contact{
@@ -555,6 +570,9 @@ porque la primera tiene predominio. */
     width: 50px;
     margin: 0 5px;
 }
+#footer .social-item title{
+    transition: 0s;
+}
 #footer .social-item img{
     filter: grayscale(1);/* Un filtro gris a los iconos */
     transition: .3s ease filter;/* Tiempo del efecto de abajo */
@@ -598,7 +616,7 @@ Durante el 50% de la animación, ocupará todo el texto y al llegar al 100% desa
 }
 @keyframes text_reveal_name{ /* Aplicamos esta animación a la última línea de texto para que en vez de balnco sea rojo. */
     100%{
-        color: crimson;
+        color: #40e0d0;
         font-weight: 600;/* Anchura letra */
     }
 }
@@ -621,12 +639,12 @@ Durante el 50% de la animación, ocupará todo el texto y al llegar al 100% desa
     }
     /* End Hero */
 
-    /* Services Section */
-    #services .service-bottom .service-item{/* Lo hacemos para tener los cuatro cuadradados divididos en dos filas y en cada fila dos cajas */
+    /* Bio Section */
+    #Bio .bio-bottom .bio-item{/* Lo hacemos para tener los cuatro cuadradados divididos en dos filas y en cada fila dos cajas */
         flex-basis: 45%;
         margin: 2.5%;
     }
-    /* End Services Section */
+    /* End Bio Section */
 
     /* Project */
     #projects .project-item{
@@ -663,7 +681,7 @@ Durante el 50% de la animación, ocupará todo el texto y al llegar al 100% desa
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid crimson;
+        border: 10px solid #40e0d0;
     }
     #about .col-right{
         text-align: left;
@@ -731,7 +749,7 @@ Durante el 50% de la animación, ocupará todo el texto y al llegar al 100% desa
     #header .nav-list ul a::after{/* Eliminamos el efecto de las letras que salían de fondo difuminadas en los modos tablet y móvil */
         display: none;
     }
-    #services .service-bottom .service-item{
+    #Bio .bio-bottom .bio-item{
         flex-basis: 22%;
         margin: 1.5%;
     }
