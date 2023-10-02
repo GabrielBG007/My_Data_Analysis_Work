@@ -1,0 +1,773 @@
+/* Importamos url de google para aplicar la fuente del html */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+/* Para eliminar los espacios inesperados */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Aplicamos la fuente del títulos del hero container */
+html {
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth; /* Cada vez que le de a algún apartado del menú me llevará a ese sitio no tan rápido sino suave */
+}
+/* Aplicamos fuente del botón debajo del título */
+a {
+    text-decoration: none;
+}
+/* Alineamos el texto del container al centro */
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {/* Con esto nos aseguramos que todas las img del html (ver Bio) ocupen el 100% del tamaño establecido */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+p{/* Todos los parágrafos que pongamos van a tener estas características. */
+        font-size: 1.4rem;
+        margin-top: 5px;
+        line-height: 2.5rem;
+        font-weight: 500;
+        letter-spacing: .05rem;
+        color: black;
+    }
+.section-title{/* Todas las clases que tengan este nombre tendrán este formato, independientemente del id */
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+.section-title span{
+    color: #40e0d0;/* Para poner la i entre los span rojo */
+}
+/* Hacemos referencia al botón, porque pertenece al id=hero
+    y pertenece a la clase cta */
+.cta {
+    display: inline-block;/* Una caja de texto */
+    padding: 10px 60px;/* Espacio del texto con la caja */
+    color: white;
+    background-color: transparent;
+    border: 2px solid #40e0d0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 36px;
+    transition: .3s ease;/* Transition hacer referencia a que vamos a aplicar algun tipo de efecto
+    cuando pongamos el ratón sobre el botón */
+    transition-property: background-color, color;/* Aplicamos este transition al color de fondo de la caja y al color del texto
+    dentro de la caja. */
+}
+.cta:hover{/* Aplicamos el hover(efecto al pasar sobre el botón) y las letras del texto se quedan en blanco y
+        el fondo pasa a ser rojo */
+    color: white;
+    background-color: #40e0d0;
+    }
+.brand h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+.brand h1 span{
+    color: #40e0d0;
+}
+/* Header Section */
+#header{/* # hace referencia al ID */
+    position: fixed;/* Se va a mantener en una posición fija */
+    z-index: 1000;/* Para que sobresalte sobre el hero section */
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    
+}
+#header .header{/* . hace referencia a una clase, en este caso a la clase header del id header */
+    min-height: 8vh;
+    background-color: rgba(31,30,30,0.24);
+    transition: .4s ease background-color;/* Transición para el efecto de scroll de java */
+}
+#header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/* Separación horizontal entre las dos clases dentro de la clase nav-bar */
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0px 10px;
+
+}
+#header .nav-list ul{
+    list-style: none;
+    position: absolute;
+    background-color: rgb(31,30,30);
+    width: 100vw;
+    height: 100vh;
+    left:100%;/* Si pongo el left al 100% me hace desaparecer el menú */
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .5s ease left;/* Velocidad con la que aparece y desaparece el menú cuando clickeamos sobre el botón */
+}
+#header .nav-list ul.active{/* Este active procede del archivo de java que permite hacer interacciones tras clickear sobre el botón, ponemos 
+    left: 0 para que tras clickear el botón aparezca el menú, porque en la línea de comando anterior hemos puesto left: 100% para que no se vea. */
+    left:0;
+}
+#header .nav-list ul a{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+    transition: 0.4s ease color;
+}
+#header .nav-list ul a.Spanish{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #40e0d0;
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 8px 8px;
+    display: block;
+    transition: 0.4s ease color;
+}
+#header .nav-list ul a::after{
+    content: attr(data-after);/* attr() es para introducir la variable añadida en el archivo html */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);/* Translate -50%,-50% es un efecto donde la palabra se forma con las letras viniendo de ambos lado y juntandose en el centro. El scale(0) se añadió después, para elminar temporalmente el contenido */
+    color: rgba(240,248,255,0.021);
+    font-size: 7rem;
+    letter-spacing: 50px;
+    z-index: -1;
+    transition: .3s ease letter-spacing;
+}
+#header .nav-list ul li:hover a::after{
+    transform: translate(-50%, -50%) scale(1);/* Scale(1) hace que reaparezca el contenido */
+    letter-spacing: initial;
+}
+#header .nav-list ul li:hover a{
+    color: #40e0d0;
+}
+#header .nav-list ul li:hover a.Spanish{
+    color:black;
+}
+#header .hamburger{
+    height: 60px;
+    width: 60px;
+    display: inline-block;/*Nos permite poner el botón en la primera línea del bloque */
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;/* Para que se pueda ver sobre la posición absoluta anterior */
+    cursor: pointer;/* Cuando pasemos con el cursor sobre esta clase saldra una mano en vez del típico cursor */
+    transform: scale(.8);/* Con esto modificamos el tamaño del botón */
+    margin-right: 20px;
+}
+#header .hamburger::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #40e0d0;
+    animation: hamburger_puls 1s ease infinite;
+}
+#header .hamburger .bar{
+    height: 2px;
+    width: 30px;
+    position: relative;
+    background-color: white;
+    z-index: -1;
+}
+#header .hamburger .bar::after,
+#header .hamburger .bar::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: .3s ease;
+    transition-property: top,bottom;
+}
+#header .hamburger .bar::after {/* Creamos una barra después */
+    top:8px;
+}
+#header .hamburger .bar::before {/* Creamos una barra antes */
+    bottom:8px;
+}
+#header .hamburger.active .bar::before{/* el hamburger.active procede del archivo app.js, podemos ver su localización si le damos click derecho a la página web y le damos a inspeccionar, cada vez que le demos al botón veremos como se ilumina el comando */
+    bottom: 0;
+}
+#header .hamburger.active .bar::after{/* Ponemos top y bottom 0 para que las líneas añadidas en top y bottom 8px desaparezcan al clickear */
+    top: 0;
+}
+
+/* End Header Section */
+
+/* Hero Section */
+/* Con #hero hacemos referencia al id=hero  y ponemos la imagen de fondo*/
+#hero {
+    background-image: url(./img/Mountains.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative; /* Position= relative significa que vamos a sobreponer otra imagen */
+    z-index: 1;
+}
+/* Estamos poniendo una imagen en negro sobre la anterior pero 
+con la opacidad al .7 hacemos que la anterior se vea pero algo oscurecida.
+El z-index=1 en la imagen anterior hace referencia que aunque hayamos puesto
+una imagen sobre la primera imagen, podamos aún así clickar en los botones,
+por eso en la imagen que hemos sobrepuesto hemos puesto un z-index=-1,
+porque la primera tiene predominio. */
+/* After significa que vamos a añadir algo justo después */
+#hero::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .65;
+    z-index: -1;
+}
+/* Procedemos a poner el texto en el lado izquierdo de la pantalla */
+#hero .hero {
+    max-width: 1200px;/* Máximos píxeles que puede ocupar la pantall cuando la pongamos en pantalla completa */
+    margin: 0 auto;
+    padding:  0 50px;
+    justify-content:flex-start;
+}
+/* Texto de la sección, modificaciones */
+#hero h1 {
+   display: block;
+   width: fit-content;
+   font-size: 4rem;
+   position: relative;
+   color: transparent; 
+   animation: text_reveal .5s ease forwards;/* Al aplicar la animación de la función, ponemos forwards para que el color de las letras tras la animación se mantenga en blanco en vez de transparente */
+   animation-delay: 1s;
+}
+/* Aquí aplicamos un delay a la animación anterior para cada línea de texto, representando con nth-child() */
+#hero h1:nth-child(1){
+    animation-delay: 1s;
+}
+#hero h1:nth-child(2){
+    animation-delay: 2s;
+}
+#hero h1:nth-child(3){
+    animation: text_reveal_name .5s ease forwards;
+    animation-delay: 3s;
+}
+
+#hero h1 span {/* Hacemos referencia al <span> que hemos añadido en el file index al h1 y ponemos position=absolute para que este por encima del resto de las imágenes o capas */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #40e0d0;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
+}
+/* Al igual que antes, aplicamos un delay a cada línea de texto pero esta vez al efecto del bloque rojo */
+#hero h1:nth-child(1) span{
+    animation-delay: .5s;
+}
+#hero h1:nth-child(2) span{
+    animation-delay: 1.5s;
+}
+#hero h1:nth-child(3) span{
+    animation-delay: 2.5s;
+}
+
+
+/* End Hero Section */
+
+/* Bio Section */
+
+#Bio .Bio{/* Esto hace referencia al Bio.container */
+    flex-direction: column;
+    text-align: justify;/* Nos permite centrar el texto y los iconoss */
+    /* Esta línea de comando permite que tengamos el formato del .container de más arriba. Añadimos column para que nos haga una columna con ese formato */
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 20px;/* El primer valor hacer referencia a la distancia arriba y abajo entre las secciones y el segundo valor con respecto a los márgenes. */
+}
+#Bio .bio-top{
+    max-width: 700px;
+    margin: -10px 0px;
+/* Se ajusta al margen de manera automática */
+}
+#Bio .bio-top .section-title-p span{
+    color: #40e0d0;
+    font-size: 60px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#Bio .bio-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;/* Hemos empapelado la clase entera. */
+    margin-top: 10px;
+}
+#Bio .bio-item{
+    flex-basis: 80%; /* Aplicamos una anchura a la clase del 80% */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px; /* Forma circular de los bordes */
+    background-image: url(./img/Tree.png);
+    background-size: cover;
+    margin: 10px 5%; /* El porcentaje hace referencia al tamaño del margen */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;/* Cuando añadimos el text-align: left en Bio .bio-item p, los bordes redondos del marco 
+    de web design dejaron de serlo, por lo que aplicamos el overflow:hidden para que el contenido que haya fuera de 
+    este bloque de comando no se tenga en cuenta, como que lo difuminamos. */
+}
+#Bio .bio-item::after{/* Vamos a poner un cover sobre las imágenes anteriores, como hicimos al principio. */
+    content:"";
+    position: absolute;/* Para que esté encima de las imágenes anteriores, por eso las de antes tienen position relative */
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.85;
+    z-index: -1;/* Ponemos -1 con respecto al 1 de la clase bio.item para que se vean las letras */
+}
+#Bio .bio-bottom .icon{/* Para crear espacio entre los iconos y las letras */
+    height: 80px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+#Bio .bio-item h2{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#Bio .bio-item p{
+    color: white;
+    text-align: justify;
+}
+#Bio .bio-bottom .bio-item .hobbie-title{
+    color:white
+}
+
+/*  End Bio Section */
+
+/* Projects Section*/
+#projects .projects{
+    flex-direction: column;
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#projects .projects-header h1{
+    margin-bottom: 50px;
+}
+#projects .all-projects{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+}
+#projects .project-item{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#projects .project-info{
+    padding: 30px;
+    flex-basis: 50%;/* Tamaño de la caja donde está el contenido, se puede sobrescribir con box-sizing */
+    height: 100%;
+    display: flex;
+    align-items: flex-start;/* Como si lo alinearamos a la izquierda */
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    color: white;
+}
+#projects .project-info h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+#projects .project-info h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#projects .project-info p{
+    color: white;
+}
+#projects .project-img{
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+#projects .project-img::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: .5;
+}
+#projects .project-item:hover .project-img img{/* Al pasar por una imágen de la clase project-item, nos hará zoom */
+    transform: scale(1.1); 
+}
+#projects .project-img img{/* Permite que el zoom anterior tenga un efecto más lento */
+    transition: .3s ease transform;
+}
+#projects .project-info .title1{
+    color:#40e0d0;
+}
+
+/* End Projects Section */ 
+
+/* About Section */
+#about .about{
+    flex-direction: column-reverse;/* Lo último que hemos añadido en la clase aparecerá primero en la lista, está al revés */
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+#about .col-left{
+    width: 250px;
+    height: 360px;
+}
+#about .col-right{
+    width: 100%;
+}
+#about .col-right h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+}
+#about .col-right p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#about .col-right .cta{
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+#about .col-left .about-img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 10px solid white;
+}
+#about .col-left .about-img::after{/* Añadimos el marco a la imagen mediante after::, que es sobreponer */
+    content:"";
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid #40e0d0;
+    z-index: -1;
+}
+
+/* End About Section */
+/* Contact Section */
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contact .contact-items{
+    width: 400px;
+
+}
+#contact .contact-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;/* Los items estarán alineados centralmente entre ellos */
+    box-shadow: 0px 0px 18px 0 #0000002c;/* Para dar sombra a la caja de cada item */
+    transition: .3s ease box-shadow;
+}
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0 #0000002c;/* Para aplicar el efecto del hover a las cajas de cada item */
+}
+#contact .icon{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#contact .info h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#contact .contact-info h2{
+    font-size: 1.3 rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+/* End Contact Section */
+
+/* Footer */
+#footer{/* Poner el fondo de la sección footer */
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer{/* Modificar los tamaños y márgenes de la sección footer */
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer h2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer .social-icon{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item{
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+#footer .social-item title{
+    transition: 0s;
+}
+#footer .social-item img{
+    filter: grayscale(1);/* Un filtro gris a los iconos */
+    transition: .3s ease filter;/* Tiempo del efecto de abajo */
+}
+#footer .social-item:hover img{
+    filter: grayscale(0);/* Aplicamos el hover para que cuando pasemos el ratón sobre los iconos vuelva al color original en vez del tono gris */
+}
+#footer p{
+    color: white;
+    font-size: 1.3rem;
+}
+/* End Footer */
+
+/* Keyframes */
+/* Con @keyframes vamos a crear una animación con una función que hemos llamdo text_reveal_box.
+Durante el 50% de la animación, ocupará todo el texto y al llegar al 100% desaparecerá. */
+@keyframes hamburger_puls{/* El efecto para el botón en forma de hamburguesa */
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.4);
+    }
+}
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width:0;
+        left: 100%/* El efecto acaba yendo hacia la derecha */
+    }
+}
+@keyframes text_reveal{
+    100%{
+        color: white;
+    }
+}
+@keyframes text_reveal_name{ /* Aplicamos esta animación a la última línea de texto para que en vez de balnco sea rojo. */
+    100%{
+        color: #40e0d0;
+        font-weight: 600;/* Anchura letra */
+    }
+}
+/* End Keyframes */
+
+/* Media Query For Tablet */
+/* Lo que vamos a hacer va a ser ajustar una serie de elementos para que en las tablets se vea bien, porque hasta el momento lo hemos hecho basandonos en los móviles */
+@media only screen and (min-width: 768px){
+    .cta{
+        font-size: 2.5 rem;
+        padding: 20px 60px;
+    }
+    h1.section-title {
+        font-size: 6rem;
+    }
+
+    /* Hero */
+    #hero h1{
+        font-size: 7rem;
+    }
+    /* End Hero */
+
+    /* Bio Section */
+    #Bio .bio-bottom .bio-item{/* Lo hacemos para tener los cuatro cuadradados divididos en dos filas y en cada fila dos cajas */
+        flex-basis: 45%;
+        margin: 2.5%;
+    }
+    /* End Bio Section */
+
+    /* Project */
+    #projects .project-item{
+        flex-direction: row;
+    }
+    #projects .project-item:nth-child(even){/* Si el item es par, nos lo pone en el row invertido en vez de en el primero */
+        flex-direction: row-reverse;
+    }
+    #projects .project-item{
+        height : 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    #projects .all-projects .project-info{
+        height: 100%;
+    }
+    #projects .all-projects .project-img{
+        height: 100%;
+    }
+    /* End Project */
+
+    /* About */
+    #about .about{
+        flex-direction: row;
+    }
+    #about .col-left{
+        width: 600px;
+        height: 400px;
+        padding-left: 60px;
+    }
+    #about .about .col-left .about-img::after{
+        left: -45px;
+        top: 34px;
+        height: 98%;
+        width: 98%;
+        border: 10px solid #40e0d0;
+    }
+    #about .col-right{
+        text-align: left;
+        padding: 30px;
+    }
+    #about .col-right h1{
+        text-align: left;
+    }
+    /* End About */
+
+    /* Contact */
+    #contact .contact{
+        flex-direction: column;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: center;
+        min-width: 20vh;
+    }
+    #contact .contact-items{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    #contact .contact-item{
+        width: 30%;
+        margin: 0;
+        flex-direction: row;
+    }
+    #contact .contact-item .icon{
+        height: 100px;
+        width: 100px;
+    }
+    #contact .contact-item .icon img{
+        object-fit: contain;/* Para que los iconos se ajusten a los cambios realizado anteriormente */
+    }
+    #contact .contact-item .contact-info{
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    /* End Contact */
+}
+/* End Media Query For Tablet */
+
+/* Media Query For Desktop View */
+@media only screen and (min-width:1200px){
+    #header .hamburger{
+        display: none;/* Eliminamos el menú en forma de hamburguesa en el formato desktop porque lo queremos de otra forma */
+    }
+    #header .nav-list ul{/* Modificamos la posición de la lista de menú */
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;    
+    }
+    #header .nav-list ul li{
+        display: inline-block;/* Nos lo posiciona en la primera línea del bloque */
+    }
+    #header .nav-list ul li a{
+        font-size: 1.8rem;
+    }
+    #header .nav-list ul a::after{/* Eliminamos el efecto de las letras que salían de fondo difuminadas en los modos tablet y móvil */
+        display: none;
+    }
+    #Bio .bio-bottom .bio-item{
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+}
+/* End Media Query For Desktop View */

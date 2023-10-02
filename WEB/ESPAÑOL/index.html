@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><!-- Conectamos con el archivo css que se encarga del estilo -->
+    <title>Gabriel</title><!-- Nombre de la ventana -->
+    
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>G</span>abriel <span>B</span>ernabé</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div><!-- Para hacer la animación del menú en forma de hamburguesa -->
+          <ul><!-- Ul significa unordered list y lo que vamos a hacer va a ser crear una especie de menú con listas clickables -->
+            <li><a href="#hero" data-after="Inicio">Inicio</a></li><!-- Con data-after estamos creando una variable que vamos a utilizar después en el css para crear el efecto en el menú del header -->
+            <li><a href="#Bio" data-after="Biografía">Bio</a></li>
+            <li><a href="#projects" data-after="Datos">Datos</a></li>
+            <li><a href="#about" data-after="Acerca de">Acerca de</a></li>
+            <li><a href="#contact" data-after="Contacto">Contacto</a></li>
+            <li><a href="https://gabrielbernabegarcia.000webhostapp.com/" class="Inglés" data-after="Inglés" title="Inglés">EN</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+ <!-- Hero Section (Creamos una sección y la vamos a dividir en una clase llamada hero container y después le añadimos un título con <h1> y
+    un botón debajo clickable llamado Portfolio) --> 
+ <section id="hero"><!-- Esta es la clase .hero -->
+    <div class="hero container"><!-- We are gonna use this class in many sections.Esta es la clase .container-->
+        <div>
+            <h1>Hola,<span></span></h1><!-- Añadimos los <span> al final de cada línea para añadir más cosas al texto -->
+            <h1>Mi Nombre es<span></span></h1>
+            <h1>Gabriel<span></span></h1>
+            <a href="#projects" type="button" class="cta">Portafolio</a><!-- a y un href dentro significa que hemos incluido un link dentro de la página -->
+        </div>
+    </div>
+ </section>
+ <!-- End Hero Section -->
+
+ <!-- bio Section -->
+ <section id="Bio">
+    <div class="Bio container"><!-- Ponemos la clase del container de arriba para poder usar después flex y referenciar el formato -->
+      <div class="bio-top">
+        <h1 class="section-title">B<span>i</span>O</h1>
+        <p class= "section-title-p"><span>H</span>ola soy Gabriel, tengo 22 años y nací en Alicante (España). Acabo de obtener mi título en Ciencias Ambientales, así que sería 
+          justo decir que soy un Ambientólogo! Durante mi TFG (Trabajo de Fin de Grado), me interesé mucho en el mundo del análisis de datos, 
+          y desde entonces, he estado aprendiendo de manera autodidacta los aspectos más importantes de ello. Siempre he sido una persona trabajadora y tengo la intención de seguir siéndola 
+          hasta quedarme sin aliento. Aquí abajo podrás encontrar alguno de mis "hobbies":
+        </p>
+      </div>
+      <div class="bio-bottom">
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=80&id=fZ3sQAZigZRg&format=png" /></div><!-- Imagen cogida de internet, copia la barra de búsqueda -->
+          <h2 class="hobbie-title"><span>DEPORTES</span></h2>
+          <p>Me gusta practicar todo tipo de deportes. Soy un gran fanático del fútbol y también muestro cierto interés hacia el ping pong. Soy muy competitivo cuando toca enfrentarme a mi rival...
+          </p>
+        </div>
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=80&id=9N5elasGFyRq&format=png" /></div>
+          <h2 class="hobbie-title"><span>VER TORMENTAS</span></h2>
+          <p>Me encantan las tormentas. Me gusta observarlas y analizar su trayectoria. Vivo en un lugar 
+             donde suelen haber tormentas, por lo que tengo suerte en ese sentido.
+          </p>
+        </div>
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=80&id=kYULvJBiQzEM&format=png" /></div>
+          <h2 class="hobbie-title"><span>EXCURSIONES</span></h2>
+          <p>Una de las mejores formas de disfrutar de la naturaleza y sus paisajes es haciendo excursiones. Desde pequeño siempre me ha gustado salir 
+             con mi familia a todo tipo de montañas y bosques. </p>
+        </div>
+        <div class="bio-item">
+          <div class="icon"><img src="https://img.icons8.com/?size=64&id=kikfxBGRtDDm&format=png" /></div>
+          <h2 class="hobbie-title"><span>F1</span></h2>
+          <p>Soy un gran fan de la F1. Todo empezó en 2015, cuando Fernando Alonso fichó por Mclaren-Honda. Me apasiona ver a este tipo de coches tomar curvas a más de 200 Km/h!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- End bio Section -->
+
+ <!-- Projects Section -->
+ <section id="projects">
+  <div class="projects container"><!-- El container incluye dentro todas las clases que vamos a poner, es por eso que el formato que le pongamos va a ser muy importante -->
+    <div class="projects-header">
+      <h1 class="section-title">Trabajos <span>Recientes</span></h1><!-- Nombramos la clase igual que la de la sección de servicios para que los títulos tengan parecido formato -->
+    </div>
+    <div class="all-projects">
+      <div class="project-item">
+        <div class="project-info">
+          <h1 class="title1"><span>Excel</span></h1>
+          <h2>Nivel Intermedio - Avanzado</h2>
+          <p>He estado utilizando Excel prácticamente desde la escuela, pero las cosas se volvieron más serias en la universidad, donde empecé a aprender más sobre 
+            las principales funciones y también las mejores formas de visualizar los datos. Lo que realmente me hizo sudar la gota gorda fue la elaboración de mi TFG, donde 
+            tuve que lidiar con más de 20,000 filas de datos (eso fue mucho para mí, considerando mi nivel básico de Excel). Tuve que aprender mejores formas de limpiar 
+            y organizar los datos.</p>
+          <p>Completé un curso avanzado de Excel de 3.5 horas, donde aprendí sobre matrices dinámicas, así como funciones como XLOOKUP, XMATCH, búsquedas bidireccionales,
+             CHOOSE, SWITCH y todos los tipos de redondeo. También completé un curso sobre tablas dinámicas y otro relacionado con la limpieza de datos (ambos tenían una 
+             duración de 1 hora).</p>
+        </div>  
+        <div class="project-img">
+          <img src="./img/Excel.png" alt="img"><!-- Alt means alternative -->
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1 class="title1"><span>SQL</span></h1>
+          <h2>Nivel Básico - Intermedio</h2>
+          <p>Durante mi carrera académica, nunca hice uso de SQL. Cuando empecé a buscar los requisitos para convertirme en un analista de datos, descubrí 
+             que era necesario tener un conocimiento decente de SQL. Por eso, completé dos cursos online de SQL, uno con una duración de 4 horas y el otro de 20 horas.
+          </p>
+          <p>En estos cursos, aprendí acerca de la creación de tablas, tipos de datos, cómo escribir "queries" básicos utilizando UPDATE, DELETE, GROUP BY, ORDER BY, 
+             así como algunas más complicadas utilizando JOINS, UNIONS y "nested queries"...</p>
+        </div>  
+        <div class="project-img">
+          <img src="./img/SQL.png" alt="img"><!-- Alt means alternative -->
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1 class="title1"><span>R Studio</span></h1>
+          <h2>Nivel Intermedio</h2>
+          <p>R Studio fue el que realmente me introdujo en el mundo de análisis de datos, especialmente en la parte de la visualización. Me recomendaron una biblioteca llamada 
+             "openair" porque mi TFG estaba relacionado con el tema de la contaminación atmosférica.
+          </p>
+          <p>El tiempo pasó y me encontré un poco limitado con la funcionalidad de esta biblioteca, por eso comencé a buscar otros recursos (buena elección). Conocí 
+             bibliotecas como "tidyverse", "cowplot", "datarium" ... que realmente me ayudaron a dar el siguiente paso en mejorar mi diseño gráfico y también en estructurar 
+             mis conjuntos de datos. La cantidad de bibliotecas que puedes encontrar para visualizar y limpiar tus datos es realmente impresionante.  </p>
+        </div>  
+        <div class="project-img">
+          <img src="./img/R.png" alt="img"><!-- Alt means alternative -->
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1 class="title1"><span>Python</span></h1>
+          <h2>Nivel Básico</h2>
+          <p>Una vez completé el curso de SQL, empecé un curso de Python de 16 horas. Enseguida supe que éste iba a ser un poco más desafiante, y tenía razón. 
+          </p>
+          <p>Python era más técnico y estaba mucho más inmerso en el mundo de la programación. Aquí aprendí sobre WHILE LOOPS, FOR LOOPS, LISTS, DICTIONARIES,FUNCTIONS, EXCEPTIONS, REGULAR EXPRESSIONS,METHODS,
+             PROPERTIES... (mucho!!). También hice un curso más corto de "supervised and unsupervised machine learning" (este curso fue más complicado de seguir). </p>
+        </div>  
+        <div class="project-img">
+          <img src="./img/Python.png" alt="img"><!-- Alt means alternative -->
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1 class="title1"><span>Tableau y Power BI</span></h1>
+          <h2>Nivel Básico - Intermedio</h2>
+          <p>Completé un total de 8 horas de cursos para las plataformas de Tableau y Power BI. No sé por qué nunca me hablaron de este tipo de programas en la escuela 
+             o la universidad; la creación de gráficos y "dashboards" era mucho más fácil y llamativo. Lo que noté es que Tableau era mejor en el aspecto de la 
+             visualización que Power BI, pero éste último era algo mejor en la modelización gracias a "Power Query", que facilitaba la limpieza de datos. </p>
+        </div>  
+        <div class="project-img">
+          <img src="./img/Tableau.png" alt="img"><!-- Alt means alternative -->
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- End Projects Section -->
+
+ <!-- About Section  -->
+ <section id="about">
+  <div class="about container">
+    <div class="col-left">
+      <div class="about-img">
+        <img src="./img/img-3.jpg" alt="img">
+      </div>
+    </div>
+    <div class="col-right">
+      <h1 class="section-title">Acerca de <span>mí</span></h1>
+      <h2>Ambientólogo</h2>
+      <p>Realicé el bachillerato en el I.E.S Poeta Paco Mollà, logrando una de las tres calificaciones más altas de mi clase. Luego, emprendí mi carrera universitaria 
+        en la Universidad Miguel Hernández, especializándome en Ciencias Ambientales. Pasé 4 años estudiando esta carrera, aprendiendo mucho sobre las características 
+        de los diferentes componentes que conforman nuestro entorno, así como estudiando diversas formas de mitigar los impactos humanos en el medio. El título de mi TFG fue 
+        "Aerosoles Atmosféricos y Dispersión de Radiación: Un Estudio de Higroscopicidad". El exitoso resultado de este proyecto no habría sido posible sin el apoyo de 
+        algunos de mis compañeros en el Departamento de Física Aplicada. Todo el esfuerzo invertido en este proyecto final valió la pena después de obtener una matrícula de honor
+        con una calificación de 9,3. Finalmente, mi promedio ponderado en la carrera fue de 8,54.  
+        </p>
+        <p>Finalmente, en relación a mis habilidades lingüísticas, dispongo de un B2 de Valenciano y un nivel C1 CEFR en Inglés.</p>
+      <a href= "./CV/CV(ES).pdf" download type="button" class="cta">Descargar CV</a>
+    </div>
+  </div>
+</section>
+ <!-- End About Section -->
+
+ <!-- Contact Section -->
+ <section id="contact">
+  <div class="contact container">
+    <div><h1 class = "section-title">Mis <span>contactos</span></h1></div>
+    <div class="contact-items">
+      <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/?size=1x&id=dXdyQ8-cWXAs&format=png"/></div>
+        <div class="contact-info">
+          <h1>Teléfono</h1>
+          <h2>+34 618 375 998</h2>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/?size=1x&id=108813&format=png"/></div>
+        <div class="contact-info">
+          <h1>Email</h1>
+          <h2>gabrielfutsal3@gmail.com</h2>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/?size=1x&id=115626&format=png"/></div>
+        <div class="contact-info">
+          <h1>Dirección</h1>
+          <h2>Petrer, Alicante, España</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- End Contact Section -->
+
+ <!-- Footer -->
+ <section id="footer">
+  <div class="footer container">
+    <div class="brand"><h1><span>G</span>abriel <span>B</span>ernabé</h1></div>
+    <h2>¡¡¡Gracias por pasarte!!!</h2>
+    <div class="social-icon">
+      <div class="social-item" title="+34 618 375 998">
+        <a><img src="https://img.icons8.com/?size=64&id=43677&format=png">
+        </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
+      </div>
+      <div class="social-item" title="X">
+        <a href="https://twitter.com/Gabriel22910638" target="_blank"><img src="https://img.icons8.com/?size=64&id=bG29Ckcdp6YP&format=png">
+        </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
+      </div>
+      <div class="social-item" title="Linkedin">
+        <a href="https://www.linkedin.com/in/gabrielbernabegarcia/" target="_blank"><img src="https://img.icons8.com/?size=64&id=44019&format=png">
+        </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
+      </div>
+      <div class="social-item" title="GitHub">
+        <a href="https://github.com/GabrielBG007" target="_blank"><img src="https://img.icons8.com/?size=64&id=52539&format=png">
+        </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
+      </div>
+    </div>
+    <p>Copyright @ 2023 Gabriel. All rights reserved</p>
+  </div>
+ </section>
+ <!-- End Footer -->
+<script src="/app.js"></script><!-- Para que el document de app.js sepa a que html referirse -->
+</body>
+</html> 

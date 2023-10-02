@@ -40,7 +40,6 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
         letter-spacing: .05rem;
         color: black;
     }
-
 .section-title{/* Todas las clases que tengan este nombre tendrán este formato, independientemente del id */
     font-size: 4rem;
     font-weight: 300;
@@ -105,7 +104,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
     width: 100%;
     height: 100%;
     max-width: 1300px;
-    padding: 0 10px;
+    padding: 0px 10px;
 
 }
 #header .nav-list ul{
@@ -139,6 +138,19 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
     display: block;
     transition: 0.4s ease color;
 }
+#header .nav-list ul a.Inglés{
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 100px;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #40e0d0;
+    text-transform: uppercase;
+    padding: 8px 8px;
+    display: block;
+    transition: 0.4s ease color;
+}
 #header .nav-list ul a::after{
     content: attr(data-after);/* attr() es para introducir la variable añadida en el archivo html */
     position: absolute;
@@ -146,7 +158,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
     left: 50%;
     transform: translate(-50%, -50%) scale(0);/* Translate -50%,-50% es un efecto donde la palabra se forma con las letras viniendo de ambos lado y juntandose en el centro. El scale(0) se añadió después, para elminar temporalmente el contenido */
     color: rgba(240,248,255,0.021);
-    font-size: 13rem;
+    font-size: 9rem;
     letter-spacing: 50px;
     z-index: -1;
     transition: .3s ease letter-spacing;
@@ -157,6 +169,9 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
 }
 #header .nav-list ul li:hover a{
     color: #40e0d0;
+}
+#header .nav-list ul li:hover a.Inglés{
+    color:black;
 }
 #header .hamburger{
     height: 60px;
@@ -212,6 +227,7 @@ p{/* Todos los parágrafos que pongamos van a tener estas características. */
 #header .hamburger.active .bar::after{/* Ponemos top y bottom 0 para que las líneas añadidas en top y bottom 8px desaparezcan al clickear */
     top: 0;
 }
+
 /* End Header Section */
 
 /* Hero Section */
@@ -300,13 +316,13 @@ porque la primera tiene predominio. */
     flex-direction: column;
     text-align: justify;/* Nos permite centrar el texto y los iconoss */
     /* Esta línea de comando permite que tengamos el formato del .container de más arriba. Añadimos column para que nos haga una columna con ese formato */
-    max-width: 1500x;
+    max-width: 1500px;
     margin: 0 auto;
-    padding: 100px 0;/* El primer valor hacer referencia a la distancia arriba y abajo entre las secciones y el segundo valor con respecto a los márgenes. */
+    padding: 100px 20px;/* El primer valor hacer referencia a la distancia arriba y abajo entre las secciones y el segundo valor con respecto a los márgenes. */
 }
 #Bio .bio-top{
     max-width: 700px;
-    margin: -20px 0 auto;
+    margin: -10px 0px;
 /* Se ajusta al margen de manera automática */
 }
 #Bio .bio-top .section-title-p span{
@@ -317,7 +333,7 @@ porque la primera tiene predominio. */
 }
 #Bio .bio-bottom{
     display: flex;
-    align-items: center;
+    align-items: justify;
     justify-content: center;
     flex-wrap: wrap;/* Hemos empapelado la clase entera. */
     margin-top: 10px;
@@ -328,7 +344,7 @@ porque la primera tiene predominio. */
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px 20px;
     border-radius: 10px; /* Forma circular de los bordes */
     background-image: url(./img/Tree.png);
     background-size: cover;
@@ -381,7 +397,7 @@ porque la primera tiene predominio. */
 #projects .projects-header h1{
     margin-bottom: 50px;
 }
-#prjects .all-projects{
+#projects .all-projects{
     display: flex;
     align-items: center;
     text-align: justify;
@@ -454,7 +470,7 @@ porque la primera tiene predominio. */
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 #about .col-left{
     width: 250px;
