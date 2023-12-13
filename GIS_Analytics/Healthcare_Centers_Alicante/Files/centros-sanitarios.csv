@@ -1,0 +1,394 @@
+CD_FASE;MU_CODINE;MU_NOMBRE;CM_CODCM;CM_NOMBRE;CS_DENOMINACION;CS_TIPO;CS_TITULAR;CS_GESTION;CS_ACRUEDAS;CS_UCI;CS_CAMAS;CS_SCUBIERTA;CS_SAIRE;CS_SSOLAR;Latitud;Longitud
+2022;3003;Agres;26;El Comtat;CONSULTORIO AUXILIAR DE AGRES;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;145;0;158;38.78054; -0.51644
+2022;3007;Alcocer de Planes;26;El Comtat;CONSULTORIO AUXILIAR ALCOCER DE PLANE;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;111;0;128;38.79498; -0.40206
+2022;3008;Alcoleja;26;El Comtat;CONSULTORIO AUXILIAR DE ALCOLEJA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;88;0;190;38.67489; -0.33096
+2022;3010;Alfafara;26;El Comtat;CONSULTORIO AUXILIAR DE ALFAFARA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;80;0;169;38.77306; -0.55562
+2022;3016;Almudaina;26;El Comtat;CONSULTORIO AUXILIAR DE ALMUDAINA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;30;0;149;38.76102; -0.35363
+2022;3017;Alqueria d'Asnar (l');26;El Comtat;CONSULTORIO AUXILIAR L´ALQUERIA D´ASNAR;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;70;0;320;38.77233; -0.42485
+2022;3020;Balones;26;El Comtat;CONSULTORIO AUXILIAR DE BALONES;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;69;0;98;38.7365; -0.34181
+2022;3022;Benasau;26;El Comtat;CONSULTORIO AUXILIAR DE BENASAU;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;60;0;125;38.69053; -0.34325
+2022;3028;Beniarrés;26;El Comtat;CONSULTORIO AUXILIAR DE BENIARRÉS;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;209;194;403;38.8192; -0.3774
+2022;3038;Benimarfull;26;El Comtat;CONSULTORIO AUXILIAR DE BENIMARFULL;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;50;0;233;38.77691; -0.38988
+2022;3039;Benimassot;26;El Comtat;CONSULTORIO AUXILIAR DE BENIMASSOT;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;121;18;139;38.7493; -0.29276
+2022;3035;Benilloba;26;El Comtat;CENTRO DE SALUD DE BENILLOBA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1060;197;727;38.70142; -0.3874
+2022;3036;Benillup;26;El Comtat;CONSULTORIO AUXILIAR DE BENILLUP;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;24;0;140;38.75345; -0.379
+2022;3056;Cocentaina;26;El Comtat;CENTRE DE SALUT DE COCENTAINA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1792;1050;2357;38.74456; -0.43591
+2022;3056;Cocentaina;26;El Comtat;UMIVALE COCENTAINA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;450;0;456;38.7205; -0.45619
+2022;3067;Facheca;26;El Comtat;CONSULTORIO AUXILIAR DE FACHECA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;74;0;74;38.73489; -0.26779
+2022;3068;Famorca;26;El Comtat;CONSULTORIO AUXILIAR DE FAMORCA;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;68;0;68;38.73117; -0.24668
+2022;3060;Quatretondeta;26;El Comtat;CONSULTORIO AUXILIAR DE QUATRETONDETA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;47;3;54;38.72472; -0.3155
+2022;3072;Gaianes;26;El Comtat;CONSULTORIO MÉDICO GAIANES;Consultorio local;Municipio;Comunidad autónoma sin transferencias;1;0;0;98;0;646;38.81335; -0.40688
+2022;3073;Gorga;26;El Comtat;CONSULTORIO AUXILIAR GORGA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;104;0;104;38.71983; -0.35596
+2022;3084;Orxa (L')/Lorcha;26;El Comtat;CONSULTORIO AUXILIAR DE L´ORXA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;180;593;773;38.84228; -0.31144
+2022;3086;Millena;26;El Comtat;CONSULTORIO AUXILIAR DE MILLENA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;50;0;256;38.73073; -0.36379
+2022;3092;Muro de Alcoy;26;El Comtat;CENTRO DE SALUD  MURO DE ALCOY;Centro de salud;Municipio;Servicio autonómico de salud;1;0;0;1620;200;1010;38.78074; -0.4381
+2022;3106;Planes;26;El Comtat;CONSULTORIO AUXILIAR DE BENIALFAQUÍ;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;127;0;147;38.77251; -0.33887
+2022;3106;Planes;26;El Comtat;CONSULTORIO AUXILIAR DE CATAMARRUCH;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;60;0;113;38.78142; -0.32022
+2022;3106;Planes;26;El Comtat;CONSULTORIO AUXILIAR DE MARGARIDA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;40;0;192;38.78844; -0.30013
+2022;3106;Planes;26;El Comtat;CONSULTORIO AUXILIAR DE PLANES;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;304;0;152;38.7845; -0.34355
+2022;3130;Tollos;26;El Comtat;CONSULTORIO AUXILIAR DE TOLLOS;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;52;0;182;38.75662; -0.2752
+2022;3129;Tibi;27;L'Alcoià;CONSULTORI AUXILIAR DE TIBI;Consultorio local;Municipio;Servicio autonómico de salud;1;0;null;225;0;225;38.53288; -0.57456
+2022;3103;Penàguila;27;L'Alcoià;CONSULTORIO AUXILIAR DE PENAGUILA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;170;95;265;38.68046; -0.36056
+2022;3079;Ibi;27;L'Alcoià;CENTRO DE SALUD DE IBI;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3400;400;1616;38.62595; -0.57739
+2022;3079;Ibi;27;L'Alcoià;CENTRO DE SALUD IBI II;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2867;1320;3000;38.62144; -0.57247
+2022;3079;Ibi;27;L'Alcoià;CLINICA M.A.F.;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;458;0;458;38.62445; -0.56851
+2022;3079;Ibi;27;L'Alcoià;UMIVALE IBI;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;782;0;391;38.61924; -0.58222
+2022;3096;Onil;27;L'Alcoià;CENTRO DE SALUD DE ONIL;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;833;528;1361;38.62815; -0.67745
+2022;3053;Castalla;27;L'Alcoià;CENTRE DE SALUT DE CASTALLA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1583;46;473;38.59269; -0.66846
+2022;3032;Benifallim;27;L'Alcoià;CONSULTORIO AUXILIAR DE BENIFALLIM;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;110;0;508;38.66278; -0.39951
+2022;3021;Banyeres de Mariola;27;L'Alcoià;CENTRO DE SALUD DE BANYERES DE MARIOLA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;950;70;655;38.7168; -0.65821
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;CENTRE DE SALUT PUBLICA DE ALCOY;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1136;120;404;38.70123; -0.47842
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;CENTRE ESPECIALITATS LA FÁBRICA;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;5432;267;1625;38.69662; -0.48106
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;CENTRO ATENCIÓN PEDIÁTRICA;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;291;0;449;38.69664; -0.48105
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;CENTRO DE SALUD LA BASSA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1347;0;777;38.70783; -0.46922
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;CENTRO DE SALUD PLAÇA DE DINS;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2195;44;536;38.69816; -0.47334
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;CONSULTORI DE BATOI;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;140;0;232;38.68865; -0.49363
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;CONSULTORIO AUXILIAR EL CAMI (ZONA ALTA);Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;295;205;500;38.69151; -0.47489
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;HOSPITAL VERGE DELS LLIRIS;Hospital general;Comunidad autónoma;Servicio autonómico de salud;1;1;305;18839;23053;27676;38.70542; -0.46544
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;IMED ALCOY;Hospitales otras especialidades;Otros privado no benéfico;Privado no benéfico;1;0;26;2365;832;1433;38.69286; -0.48597
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;INSPECCIÓN SERVICIOS SANITARIOS;Otros centros sanitarios;Municipio;Servicio autonómico de salud;1;0;0;385;0;213;38.69489; -0.48377
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;MCSS UNION DE MUTUAS;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;381;0;724;38.70506; -0.47406
+2022;3009;Alcoi/Alcoy;27;L'Alcoià;UMIVALE ALCOI;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;604;83;687;38.69582; -0.47542
+2022;3023;Beneixama;28;L'Alt Vinalopó / Alto Vinalopó;CONSULTORIO AUXILIAR DE BENEJAMA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;196;0;196;38.69952; -0.76865
+2022;3051;Campo de Mirra/Camp de Mirra (el);28;L'Alt Vinalopó / Alto Vinalopó;CONSULTORIO AUXILIAR DE CAMPO DE MIRRA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;140;114;254;38.68613; -0.77694
+2022;3052;Cañada;28;L'Alt Vinalopó / Alto Vinalopó;CONSULTORIO MEDICO DE CAÑADA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;229;0;209;38.67542; -0.81024
+2022;3043;Biar;28;L'Alt Vinalopó / Alto Vinalopó;CENTRO DE SALUD DE BIAR;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1200;0;426;38.62979; -0.76159
+2022;3116;Salinas;28;L'Alt Vinalopó / Alto Vinalopó;CENTRO COMPLEMENTARIO DE SALINAS;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;175;92;267;38.51885; -0.91112
+2022;3123;Sax;28;L'Alt Vinalopó / Alto Vinalopó;CENTRO DE SALUD DE SAX;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2436;0;743;38.5345; -0.81941
+2022;3123;Sax;28;L'Alt Vinalopó / Alto Vinalopó;IBERMUTUAMUR SAX;Otros centros sanitarios;Municipio;Mutuas accidentes de trabajo;1;0;0;112;0;1292;38.53819; -0.81591
+2022;3140;Villena;28;L'Alt Vinalopó / Alto Vinalopó;CENTRO ASISTENCIAL ESPASANA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;280;0;560;38.63941; -0.86921
+2022;3140;Villena;28;L'Alt Vinalopó / Alto Vinalopó;CENTRO DE SALUD VILLENA I;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3835;370;1260;38.6301; -0.86567
+2022;3140;Villena;28;L'Alt Vinalopó / Alto Vinalopó;CENTRO DE SALUD VILLENA II;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1428;240;1000;38.64004; -0.86907
+2022;3140;Villena;28;L'Alt Vinalopó / Alto Vinalopó;CENTRO SANITARIO INTEGRADO VILLENA;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3880;3283;5877;38.63839; -0.88053
+2022;3140;Villena;28;L'Alt Vinalopó / Alto Vinalopó;CLÍNICA DELFOS;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;228;0;530;38.62954; -0.86229
+2022;3140;Villena;28;L'Alt Vinalopó / Alto Vinalopó;CONSULTORIO AUXILIAR LA ENCINA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;0;0;0;110;0;350;38.76759; -0.9544
+2022;3140;Villena;28;L'Alt Vinalopó / Alto Vinalopó;MAZ VILLENA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;450;0;1175;38.63612; -0.8694
+2022;3114;Romana (la);29;El Vinalopó Mitjà / El Vinalopó Medio;CONSULTORIO AUXILIAR DE LA ROMANA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;null;442;168;610;38.36468; -0.89566
+2022;3104;Petrer;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD DE PETRER I;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1196;140;1336;38.48421; -0.77795
+2022;3104;Petrer;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD PETRER II;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;991;650;1517;38.48125; -0.78232
+2022;3104;Petrer;29;El Vinalopó Mitjà / El Vinalopó Medio;IBERMUTUAMUR;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;1050;370;1000;38.46845; -0.7879
+2022;3105;Pinoso/Pinós (El);29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD DE PINOSO;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1160;1268;2428;38.39985; -1.04389
+2022;3093;Novelda;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD DE NOVELDA;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1160;4300;5457;38.38341; -0.75751
+2022;3093;Novelda;29;El Vinalopó Mitjà / El Vinalopó Medio;IBERMUTUAMUR NOVELDA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;120;0;697;38.38548; -0.75869
+2022;3093;Novelda;29;El Vinalopó Mitjà / El Vinalopó Medio;MEDICINA GENERAL Mª REMEDIOS MIRA INIEST;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;188;0;162;38.38386; -0.76564
+2022;3093;Novelda;29;El Vinalopó Mitjà / El Vinalopó Medio;SERVICIO DE ATENCIÓN TEMPRANA;Otros centros sanitarios;Municipio;Servicio autonómico de salud;1;0;0;157;332;489;38.37924; -0.77091
+2022;3088;Monforte del Cid;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD MONFORTE DEL CID;Centro de salud;Municipio;Servicio autonómico de salud;1;0;0;1279;1637;2916;38.38119; -0.72594
+2022;3089;Monòver/Monóvar;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO SALUD MONOVAR;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1661;0;1366;38.43586; -0.836
+2022;3089;Monòver/Monóvar;29;El Vinalopó Mitjà / El Vinalopó Medio;CONSULTORIO AUXILIAR PEDANIAS;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;229;999;1228;38.40938; -0.95586
+2022;3089;Monòver/Monóvar;29;El Vinalopó Mitjà / El Vinalopó Medio;MAZ MONOVAR;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;88;0;88;38.43596; -0.83921
+2022;3077;Hondón de las Nieves/Fondó de les Neus (El);29;El Vinalopó Mitjà / El Vinalopó Medio;CONSULTORIO AUXILIAR DE LA CANALOSA;Consultorio local;Municipio;Privado no benéfico;1;0;0;15;0;175;38.30509; -0.93534
+2022;3077;Hondón de las Nieves/Fondó de les Neus (El);29;El Vinalopó Mitjà / El Vinalopó Medio;CONSULTORIO AUXILIAR HONDON NIEVES;Consultorio local;Comunidad autónoma;Privado no benéfico;0;0;0;85;0;85;38.3093; -0.85102
+2022;3078;Hondón de los Frailes;29;El Vinalopó Mitjà / El Vinalopó Medio;CONSULTORIO AUXILIAR HONDON FRAILES;Consultorio local;Municipio;INSALUD;1;0;0;156;82;238;38.27449; -0.92561
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE ESPECIALIDADES ELDA;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2922;350;1255;38.47516; -0.79548
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD ELDA (AVDA. SAX);Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;670;2076;2746;38.4841; -0.79883
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD LAS ACACIAS;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2950;40;727;38.47339; -0.78805
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD MARINA ESPANOLA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2232;711;1567;38.47557; -0.80013
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO MÉDICO LOS ÁNGELES.;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;312;0;156;38.47872; -0.78884
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;CLINICA UMIVALE ELDA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;643;0;643;38.47038; -0.80664
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;CONSULTORIO AUX. VIRGEN DE LA CABEZA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1420;0;712;38.48177; -0.79014
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;FREMAP ELDA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;105;0;2863;38.47513; -0.79464
+2022;3066;Elda;29;El Vinalopó Mitjà / El Vinalopó Medio;HOSPITAL GENERAL DE ELDA;Hospital general;Comunidad autónoma;Servicio autonómico de salud;1;1;513;40548;20500;35738;38.49344; -0.80589
+2022;3019;Aspe;29;El Vinalopó Mitjà / El Vinalopó Medio;CENTRO DE SALUD INTEGRADO ASPE;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Privado no benéfico;1;0;null;3600;2960;5800;38.34312; -0.7597
+2022;3019;Aspe;29;El Vinalopó Mitjà / El Vinalopó Medio;MAZ;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;200;0;200;38.34725; -0.76931
+2022;3013;Algueña;29;El Vinalopó Mitjà / El Vinalopó Medio;CONSULTORIO AUXILIAR DE ALGUEÑA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;288;42;330;38.33896; -1.0053
+2022;3001;Atzúbia (L');30;La Marina Alta;CONSULTORIO AUXILIAR DE ADSUBIA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;181;236;417;38.84748; -0.14864
+2022;3001;Atzúbia (L');30;La Marina Alta;CONSULTORIO AUXILIAR DE FORNA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;85;0;85;38.87567; -0.17055
+2022;3006;Alcalalí;30;La Marina Alta;CONSULTORIO AUXILIAR DE ALCALALI;Consultorio local;Municipio;Privado no benéfico;1;0;0;88;0;88;38.75008; -0.04205
+2022;3006;Alcalalí;30;La Marina Alta;CONSULTORIO AUXILIAR LA LLOSA DE CAMACHO;Consultorio local;Municipio;Privado no benéfico;1;0;0;45;0;130;38.77312; -0.00579
+2022;3047;Calp;30;La Marina Alta;CENTRE DE SALUT DE CALP;Centro de salud;Municipio;Privado no benéfico;1;0;0;1143;1620;1976;38.64369; 0.03754
+2022;3047;Calp;30;La Marina Alta;CENTRO MÉDICO CALPE INTERNACIONAL;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;5139;350;2550;38.64677; 0.04412
+2022;3047;Calp;30;La Marina Alta;CONSULTORIO AUXILIAR CASA DEL MAR;Consultorio local;Comunidad autónoma;Privado no benéfico;1;0;0;1481;812;1330;38.64205; 0.04325
+2022;3047;Calp;30;La Marina Alta;CONSULTORIO DE VERANO LA FOSSA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;20;0;20;38.64465; 0.07074
+2022;3047;Calp;30;La Marina Alta;POLICLINICO CALPE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;219;0;3546;38.64358; 0.03889
+2022;3054;Castell de Castells;30;La Marina Alta;CONSULTORI AUXILIAR CASTELL DE CASTELLS;Consultorio local;Municipio;Privado no benéfico;1;0;0;202;318;520;38.72365; -0.19473
+2022;3026;Beniarbeig;30;La Marina Alta;CONSULTORI AUXILIAR DE BENIARBEIG;Consultorio local;Comunidad autónoma;Privado no benéfico;1;0;0;242;0;242;38.82259; -0.00155
+2022;3026;Beniarbeig;30;La Marina Alta;NOVAEDAT LA MARINA;Hospitales otras especialidades;Otros privado no benéfico;Privado no benéfico;1;0;20;1826;3013;4739;38.82311; -0.00152
+2022;3040;Benimeli;30;La Marina Alta;CONSULTORI AUXILIAR DE BENIMELI;Consultorio local;Municipio;Privado no benéfico;1;0;0;82;94;176;38.82253; -0.04354
+2022;3041;Benissa;30;La Marina Alta;CENTRE DE SALUT DE BENISSA;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;614;0;614;38.71642; 0.05618
+2022;3041;Benissa;30;La Marina Alta;CONSULTORIO AUXILIAR DE TEMP. LA FUSTERA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;391;0;2579;38.66341; 0.08803
+2022;3042;Poble Nou de Benitatxell (El)/Benitachell;30;La Marina Alta;CONSULTORIO AUXILIAR P.N.BENITATXELL;Consultorio local;Municipio;Privado no benéfico;1;0;0;530;397;788;38.73034; 0.14109
+2022;3029;Benigembla;30;La Marina Alta;CONSULTORIO AUXILIAR DE BENIGEMBLA;Consultorio local;Municipio;Privado no benéfico;1;0;0;60;0;197;38.75588; -0.11034
+2022;3030;Benidoleig;30;La Marina Alta;CONSULTORI AUXILIAR DE BENIDOLEIG;Consultorio local;Municipio;Privado no benéfico;1;0;0;199;0;743;38.79115; -0.03118
+2022;3063;Dénia;30;La Marina Alta;CENTRE DE SALUT PUBLICA;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1469;1523;2004;38.83522; 0.10228
+2022;3063;Dénia;30;La Marina Alta;CENTRO MEDICO DE DENIA;Hospitales otras especialidades;Otros privado no benéfico;Privado no benéfico;1;0;10;600;0;300;38.84174; 0.10322
+2022;3063;Dénia;30;La Marina Alta;CENTRO SANITARIO INTEGRADO DENIA;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;107;2500;250;1300;38.82734; 0.09624
+2022;3063;Dénia;30;La Marina Alta;CENTRO SANITARIO INTEGRADO DENIA II;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;2354;111;846;38.83764; 0.11163
+2022;3063;Dénia;30;La Marina Alta;CLINICA OFTALMICA BUIGUES;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;0;831;474;790;38.84126; 0.11098
+2022;3063;Dénia;30;La Marina Alta;CONSULTORI AUXILIAR DE JESUS POBRE;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;90;0;90;38.79894; 0.08649
+2022;3063;Dénia;30;La Marina Alta;CONSULTORIO AUXILIAR LA XARA;Consultorio local;Municipio;Privado no benéfico;1;0;0;105;0;105;38.82772; 0.06259
+2022;3063;Dénia;30;La Marina Alta;CONSULTORIO DE VERANO LES MARINES;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;134;0;134;38.85834; 0.05975
+2022;3063;Dénia;30;La Marina Alta;FREMAP;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;131;0;330;38.84152; 0.10358
+2022;3063;Dénia;30;La Marina Alta;HCB DÉNIA HOSPITAL;Hospital general;Otros privado no benéfico;Privado no benéfico;1;1;62;6500;5275;7416;38.8428; 0.09256
+2022;3063;Dénia;30;La Marina Alta;HOSPITAL COMARCAL LA PEDRERA;Hospital geriátrico y larga estancia;Comunidad autónoma;Servicio autonómico de salud;1;1;123;15630;25280;31000;38.82778; 0.09605
+2022;3063;Dénia;30;La Marina Alta;HOSPITAL DE DENIA (MARINA SALUD);Hospital general;Comunidad autónoma;Privado no benéfico;1;1;266;42500;54000;72000;38.83384; 0.05939
+2022;3063;Dénia;30;La Marina Alta;HOSPITAL SAN CARLOS HLA;Hospitales otras especialidades;Otros privado no benéfico;Privado no benéfico;1;0;63;3110;3134;4050;38.838; 0.09317
+2022;3063;Dénia;30;La Marina Alta;MCSS IBERMUTUA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;655;0;2634;38.83908; 0.11241
+2022;3063;Dénia;30;La Marina Alta;MUTUA UNIVERSAL DENIA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;308;0;1361;38.83563; 0.10774
+2022;3063;Dénia;30;La Marina Alta;UMIVALE DENIA-MARINA ALTA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;600;0;312;38.8372; 0.09243
+2022;3097;Orba;30;La Marina Alta;CENTRO DE SALUD DE ORBA;Centro de salud;Municipio;Privado no benéfico;1;0;0;736;576;971;38.78044; -0.06124
+2022;3085;Llíber;30;La Marina Alta;CONSULTORI AUXILIAR DE LLIBER;Consultorio local;Municipio;Privado no benéfico;1;0;0;266;0;1502;38.74215; 0.00501
+2022;3081;Xaló;30;La Marina Alta;CONSULTORIO AUXILIAR DE XALÓ;Consultorio local;Comunidad autónoma;Privado no benéfico;1;0;0;275;428;703;38.74101; -0.01356
+2022;3082;Xàbia/Jávea;30;La Marina Alta;CENTRE DE SALUT ADUANES;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;709;760;1115;38.79321; 0.17736
+2022;3082;Xàbia/Jávea;30;La Marina Alta;CENTRE DE SALUT DE JAVEA;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1710;656;1692;38.7892; 0.15908
+2022;3082;Xàbia/Jávea;30;La Marina Alta;CONSULTORIO AUXILIAR ARENAL;Consultorio local;Municipio;Privado no benéfico;1;0;0;90;0;90;38.77243; 0.18693
+2022;3082;Xàbia/Jávea;30;La Marina Alta;POLICLÍNICO JÁVEA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;666;0;2310;38.78969; 0.17121
+2022;3100;Parcent;30;La Marina Alta;CONSULTORIO AUXILIAR DE PARCENT;Consultorio local;Municipio;Privado no benéfico;1;0;0;144;0;144;38.74525; -0.06777
+2022;3101;Pedreguer;30;La Marina Alta;CENTRE DE SALUT JAUME COSTA I PEREZ;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;600;0;300;38.79341; 0.03142
+2022;3102;Pego;30;La Marina Alta;CENTRE DE SALUT DE PEGO;Centro de salud;Municipio;Privado no benéfico;1;0;0;1268;3129;3736;38.84304; -0.1111
+2022;3102;Pego;30;La Marina Alta;CENTRE MEDIC LA PAU S.L.;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;659;0;659;38.84222; -0.11097
+2022;3102;Pego;30;La Marina Alta;CLÍNICA PEGO;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;434;0;250;38.84605; -0.11555
+2022;3115;Sagra;30;La Marina Alta;CONSULTORI AUXILIAR DE SAGRA;Consultorio local;Municipio;Privado no benéfico;0;0;0;60;0;60;38.81082; -0.06604
+2022;3117;Sanet y Negrals;30;La Marina Alta;CONSULTORI AUXILIAR DE SANET Y NEGRALS;Consultorio local;Municipio;Privado no benéfico;1;0;0;104;0;449;38.81985; -0.03559
+2022;3071;Gata de Gorgos;30;La Marina Alta;CENTRE DE SALUT DE GATA DE GORGOS;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;2286;0;1898;38.77519; 0.08899
+2022;3091;Murla;30;La Marina Alta;CONSULTORIO AUXILIAR DE MURLA;Consultorio local;Municipio;Privado no benéfico;1;0;0;275;0;550;38.75975; -0.08327
+2022;3110;Ràfol d'Almúnia (El);30;La Marina Alta;CONSULTORIO AUXILIAR DEL RAFOL D´ALMUNIA;Consultorio local;Municipio;Privado no benéfico;1;0;0;132;0;293;38.82084; -0.05075
+2022;3901;Poblets (els);30;La Marina Alta;CONSULTORI AUXILIAR DE ELS POBLETS;Consultorio local;Municipio;Privado no benéfico;1;0;0;430;0;245;38.84908; 0.01724
+2022;3095;Ondara;30;La Marina Alta;CENTRE DE SALUT D´ONDARA;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1073;1107;1507;38.82652; 0.02144
+2022;3125;Senija;30;La Marina Alta;CONSULTORI AUXILIAR DE SENIJA;Consultorio local;Municipio;Privado no benéfico;1;0;0;60;17;77;38.72755; 0.04248
+2022;3128;Teulada;30;La Marina Alta;CENTRO DE SALUD DE TEULADA;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1220;633;1170;38.72602; 0.10237
+2022;3128;Teulada;30;La Marina Alta;CLÍNICA HCB ASISTEL MORAIRA;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;0;495;1579;1833;38.7135; 0.13922
+2022;3128;Teulada;30;La Marina Alta;CLÍNICA MORAIRA;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;0;582;782;1050;38.69283; 0.13346
+2022;3128;Teulada;30;La Marina Alta;CONSULTORI AUXILIAR DE MORAIRA;Consultorio local;Comunidad autónoma;Privado no benéfico;1;0;0;370;410;780;38.68932; 0.1313
+2022;3128;Teulada;30;La Marina Alta;POLICLÍNICA IMED TEULADA;Ambulatorio, centro especialidades o policlínicas;Otros privado no benéfico;Privado no benéfico;1;0;0;1354;981;1541;38.73062; 0.09243
+2022;3131;Tormos;30;La Marina Alta;CONSULTORI AUXILIAR DE TORMOS;Consultorio local;Municipio;Privado no benéfico;1;0;0;181;34;134;38.80212; -0.07168
+2022;3134;Vall d'Alcalà (la);30;La Marina Alta;CONSULTORI AUXILIAR DE BENIAIA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;75;0;75;38.77648; -0.26921
+2022;3134;Vall d'Alcalà (la);30;La Marina Alta;CONSULTORI AUXILIAR DE LA VALL D´ALCALÀ;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;95;0;404;38.795; -0.25127
+2022;3135;Vall d'Ebo (La);30;La Marina Alta;CONSULTORI AUXILIAR VALL D´EBO;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;85;0;269;38.8062; -0.15853
+2022;3136;Vall de Gallinera;30;La Marina Alta;CONSULTORI AUXILIAR DE ALPATRO;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;104;0;769;38.82046; -0.26134
+2022;3136;Vall de Gallinera;30;La Marina Alta;CONSULTORI AUXILIAR DE BENIALI;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;150;0;595;38.82123; -0.22125
+2022;3136;Vall de Gallinera;30;La Marina Alta;CONSULTORI AUXILIAR DE BENIRRAMA;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;180;0;477;38.83079; -0.19618
+2022;3136;Vall de Gallinera;30;La Marina Alta;CONSULTORI AUXILIAR DE BENISILI;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;188;240;334;38.81834; -0.27677
+2022;3136;Vall de Gallinera;30;La Marina Alta;CONSULTORI AUXILIAR DE BENISSIVA;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;174;0;417;38.81911; -0.22556
+2022;3137;Vall de Laguart (La);30;La Marina Alta;CONSULTORI AUXILIAR DE BENIMAURELL;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;192;0;204;38.77343; -0.12738
+2022;3137;Vall de Laguart (La);30;La Marina Alta;CONSULTORI AUXILIAR DE CAMPELL;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;85;0;360;38.7805; -0.10228
+2022;3137;Vall de Laguart (La);30;La Marina Alta;CONSULTORI AUXILIAR DE FLEIX;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;424;193;423;38.77854; -0.10845
+2022;3137;Vall de Laguart (La);30;La Marina Alta;HOSPITAL FERRÍS FONTILLES;Hospitales otras especialidades;Otros;Otros;1;0;100;2100;0;700;38.77797; -0.08724
+2022;3138;Verger (el);30;La Marina Alta;CENTRE DE SALUT EL VERGER;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1400;0;861;38.84791; 0.01003
+2022;3139;Vila Joiosa (La)/Villajoyosa;31;La Marina Baixa;CENTRE DE SALUD ALMÀSSERA DE TONDA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3742;1200;2962;38.51207; -0.23149
+2022;3139;Vila Joiosa (La)/Villajoyosa;31;La Marina Baixa;CENTRO MEDICO LA CREUETA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;994;0;305;38.50857; -0.23265
+2022;3139;Vila Joiosa (La)/Villajoyosa;31;La Marina Baixa;CONSULTORIO AUIXILIAR LA CALA;Consultorio local;Otros privado no benéfico;Servicio autonómico de salud;1;0;0;57;0;57;38.5284; -0.17057
+2022;3139;Vila Joiosa (La)/Villajoyosa;31;La Marina Baixa;HOSPITAL COMARCAL MARINA BAIXA;Hospital general;Seguridad Social (tesorería general);Servicio autonómico de salud;1;1;286;41196;12980;34098;38.53024; -0.19841
+2022;3139;Vila Joiosa (La)/Villajoyosa;31;La Marina Baixa;IMED INTERNACIONAL CENTER;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;null;1527;0;1527;38.52661; -0.16953
+2022;3127;Tárbena;31;La Marina Baixa;CONSULTORIO AUXILIAR DE TÁRBENA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;134;0;152;38.69346; -0.10168
+2022;3107;Polop;31;La Marina Baixa;CONSULTORIO AUXILIAR DE CHIRLES;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;137;43;94;38.63425; -0.13432
+2022;3107;Polop;31;La Marina Baixa;CONSULTORIO AUXILIAR DE POLOP;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;144;0;183;38.62216; -0.12991
+2022;3112;Relleu;31;La Marina Baixa;CONSULTORIO AUXILIAR DE RELLEU;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;263;252;515;38.58597; -0.31147
+2022;3124;Sella;31;La Marina Baixa;CONSULTORIO AUXILIAR DE SELLA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;107;0;107;38.60837; -0.27209
+2022;3094;Nucia (la);31;La Marina Baixa;CENTRE DE SALUT DE LA NUCIA;Centro de salud;Municipio;Servicio autonómico de salud;1;0;0;1380;650;1110;38.61926; -0.1228
+2022;3094;Nucia (la);31;La Marina Baixa;CENTRO DE ESPECIALIDADES MEDICAS;Ambulatorio, centro especialidades o policlínicas;Municipio;Servicio autonómico de salud;1;0;0;1620;0;484;38.61516; -0.1256
+2022;3094;Nucia (la);31;La Marina Baixa;CONSULTORIO AUXILIAR PINAR DE GARAITA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;648;1352;2000;38.57271; -0.12542
+2022;3094;Nucia (la);31;La Marina Baixa;CONSULTORIO BELLO HORIZONTE;Consultorio local;Municipio;Servicio autonómico de salud;1;0;null;306;31;337;38.6009; -0.09032
+2022;3098;Orxeta;31;La Marina Baixa;CONSULTORI AUXILIAR D´ORXETA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;98;0;98;38.56418; -0.26201
+2022;3057;Confrides;31;La Marina Baixa;CONSULTORIO AUXILIAR DE CONFRIDES;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;78;0;78;38.68356; -0.26975
+2022;3057;Confrides;31;La Marina Baixa;CONSULTORIO AUXILIAR DEL ABDET;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;73;0;393;38.69424; -0.25756
+2022;3075;Castell de Guadalest (El);31;La Marina Baixa;CONSULTORI AUXILIAR DE GUADALEST;Consultorio local;Municipio;Servicio autonómico de salud;0;0;0;96;16;112;38.67569; -0.19864
+2022;3069;Finestrat;31;La Marina Baixa;CONSULTORIO AUXILIAR CALA DE FINESTRAT;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;154;0;154;38.53162; -0.16835
+2022;3069;Finestrat;31;La Marina Baixa;CONSULTORIO DON FERNANDO MTNEZ. LOPEZ;Consultorio local;Municipio;Otros;1;0;0;818;381;788;38.56827; -0.21349
+2022;3031;Benidorm;31;La Marina Baixa;ASEPEYO BENIDORM;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;160;0;1216;38.54513; -0.13224
+2022;3031;Benidorm;31;La Marina Baixa;CENTRO DE ESPECIALIDADES FOIETES;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3448;3000;7177;38.54264; -0.13884
+2022;3031;Benidorm;31;La Marina Baixa;CENTRO DE SALUD I FOIETES;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2232;4832;5948;38.54272; -0.13794
+2022;3031;Benidorm;31;La Marina Baixa;CENTRO DE SALUD II TOMAS ORTUÑO;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;4058;0;1764;38.54039; -0.13157
+2022;3031;Benidorm;31;La Marina Baixa;CENTRO DE SALUD III LA CALA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3416;1185;4752;38.53594; -0.16236
+2022;3031;Benidorm;31;La Marina Baixa;CLINICA UMIVALE BENIDORM.;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;303;0;2336;38.54448; -0.13197
+2022;3031;Benidorm;31;La Marina Baixa;CONSULTORIO AUXILIAR RINCÓN DE LOIX;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;444;0;444;38.53731; -0.10715
+2022;3031;Benidorm;31;La Marina Baixa;FREMAP;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;250;0;3775;38.54074; -0.10623
+2022;3031;Benidorm;31;La Marina Baixa;HOSPITAL CLINICA BENIDORM;Hospital general;Otros privado no benéfico;Privado no benéfico;1;1;166;2371;900;4697;38.54309; -0.12928
+2022;3031;Benidorm;31;La Marina Baixa;HOSPITAL IMED  LEVANTE;Hospitales otras especialidades;Otros privado no benéfico;Privado no benéfico;1;0;100;9359;1966;3910;38.54126; -0.10639
+2022;3031;Benidorm;31;La Marina Baixa;MCSS IBERMUTUA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;63;0;1979;38.5404; -0.10618
+2022;3027;Beniardá;31;La Marina Baixa;CONSULTORIO AUXILIAR DE BENIARDA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;79;53;132;38.68274; -0.21651
+2022;3033;Benifato;31;La Marina Baixa;CONSULTORIO AUXILIAR DE BENIFATO;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;192;0;214;38.67365; -0.22965
+2022;3045;Bolulla;31;La Marina Baixa;CONSULTORIO AUXILIAR DE BOLULLA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;144;0;364;38.67503; -0.11113
+2022;3048;Callosa d'en Sarrià;31;La Marina Baixa;CENTRE DE SALUT DE CALLOSA D´EN SARRIA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1539;0;1134;38.65351; -0.11924
+2022;3037;Benimantell;31;La Marina Baixa;CONSULTORIO AUXILIAR DE BENIMANTELL;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;159;0;213;38.67621; -0.21118
+2022;3018;Altea;31;La Marina Baixa;CENTRE DE SALUT D´ALTEA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1610;108;668;38.60445; -0.04541
+2022;3018;Altea;31;La Marina Baixa;CONSULTORI AUXILIAR CASCO ANTIGUO;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;600;0;1367;38.60135; -0.05464
+2022;3018;Altea;31;La Marina Baixa;CONSULTORI D´ALTEA LA VELLA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;105;0;646;38.63033; -0.04381
+2022;3011;Alfàs del Pi (l');31;La Marina Baixa;CENTRO DE SALUD DE ALFAZ DEL PI;Centro de salud;Municipio;Servicio autonómico de salud;1;0;0;2567;1009;1864;38.57892; -0.09946
+2022;3011;Alfàs del Pi (l');31;La Marina Baixa;CONSULTORIO AUXILIAR ALFAZ DEL PI ALBIR;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;533;1019;1552;38.57181; -0.07831
+2022;3002;Agost;32;L'Alacantí;CENTRO DE SALUD DE AGOST;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;730;6293;7023;38.43785; -0.63529
+2022;3004;Aigües;32;L'Alacantí;CONSULTORIO AUXILIAR DE AIGÜES;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;160;808;968;38.49957; -0.36767
+2022;3014;Alicante/Alacant;32;L'Alacantí;AMBUMED SL.;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;74;0;8519;38.35718; -0.47085
+2022;3014;Alicante/Alacant;32;L'Alacantí;ASEPEYO ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;1462;0;2916;38.36742; -0.49668
+2022;3014;Alicante/Alacant;32;L'Alacantí;BABEL-FLORIDA;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;7014;1873;3938;38.34097; -0.5092
+2022;3014;Alicante/Alacant;32;L'Alacantí;C. DE PLANIFICACION FAMILIAR ALICANTE II;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;854;0;281;38.34678; -0.48567
+2022;3014;Alicante/Alacant;32;L'Alacantí;C. PLANIFICACION FAMILIAR ALICANTE III;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;354;995;1868;38.35406; -0.47515
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO CRECIENDO;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;0;45;0;45;38.35581; -0.47161
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO DE SALUD CABO HUERTAS;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2209;1634;3325;38.36129; -0.42811
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO DE SALUD CAMPOAMOR;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3041;0;2573;38.35911; -0.48497
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO DE SALUD DE BENALÚA;Centro de salud;Comunidad autónoma;Comunidad autónoma sin transferencias;1;0;0;2110;1410;2064;38.34093; -0.50005
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO DE SALUD PARQUE LO MORANT;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;6203;8082;12075;38.36736; -0.48617
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO DE SALUD PZA. SANTISIMA FAZ;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1595;62;402;38.3457; -0.48126
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO DE SALUD SAN BLAS;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1751;1325;2500;38.34945; -0.50026
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO MEDICO ESTACIÓN. MUTUA INTERCOMAR;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;2398;0;2398;38.34495; -0.49086
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO MEDICO HLA VISTAHERMOSA 76;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;0;6234;3874;4913;38.35717; -0.46961
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO MEDICO HLA VISTAHERMOSA 77;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;0;796;0;796;38.3684; -0.47259
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO MÉDICO MAPFRE SALUD;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;393;0;393;38.33935; -0.49266
+2022;3014;Alicante/Alacant;32;L'Alacantí;CENTRO SALUD PÚBLICA DE ALICANTE;Otros centros sanitarios;Comunidad autónoma;Comunidad autónoma sin transferencias;1;0;0;3698;370;1502;38.35289; -0.48561
+2022;3014;Alicante/Alacant;32;L'Alacantí;CIUDAD JARDIN;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1798;2806;3221;38.37542; -0.49492
+2022;3014;Alicante/Alacant;32;L'Alacantí;CLINICA HLA VISTAHERMOSA;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;1;106;11948;3300;8648;38.36304; -0.46398
+2022;3014;Alicante/Alacant;32;L'Alacantí;CLÍNICA TRIORA;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;22;1457;3442;4446;38.38558; -0.45229
+2022;3014;Alicante/Alacant;32;L'Alacantí;CLINICA UME S.L.;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;151;0;334;38.34347; -0.48764
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR ALBUFERETA;Consultorio local;Municipio;Comunidad autónoma sin transferencias;1;0;0;189;318;507;38.3683; -0.43773
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR C/GERONA SANTA FAZ;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;4921;221;1440;38.34414; -0.48691
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR EL REBOLLEDO;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;120;975;1095;38.34353; -0.61044
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR GARBINET;Consultorio local;Municipio;Comunidad autónoma sin transferencias;1;0;0;221;0;1505;38.36374; -0.47254
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR PLAYA SAN JUAN;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;290;0;52954;38.37045; -0.41796
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR SAN GABRIEL;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;318;0;1325;38.32836; -0.51018
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR TABARCA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;165;95;275;38.16692; -0.48087
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR VILLAFRANQUEZA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;165;0;175;38.3851; -0.49218
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO AUXILIAR VISTAHERMOSA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;154;0;154;38.37301; -0.45346
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO MÉDICO CAÑADA DEL FENOLLAR;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;182;392;574;38.39661; -0.58063
+2022;3014;Alicante/Alacant;32;L'Alacantí;CONSULTORIO MÉDICO DE URBANOVA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;346;1951;2297;38.27927; -0.5229
+2022;3014;Alicante/Alacant;32;L'Alacantí;DELEGACIÓN ACTIVA MUTUA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;370;0;185;38.34808; -0.49117
+2022;3014;Alicante/Alacant;32;L'Alacantí;FRATERNIDAD MUPRESPA ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;2250;0;4485;38.36857; -0.47093
+2022;3014;Alicante/Alacant;32;L'Alacantí;FREMAP ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;2001;0;2001;38.33901; -0.49221
+2022;3014;Alicante/Alacant;32;L'Alacantí;HOSPITAL GENERAL UNIVERSITARIO ALICANTE;Hospital general;Comunidad autónoma;Servicio autonómico de salud;1;1;794;139816;49677;72381;38.36311; -0.485
+2022;3014;Alicante/Alacant;32;L'Alacantí;HOSPITAL PROVINCIAL - PLÁ;Centro de salud;Diputaciones, consejos o cabildos;Servicio autonómico de salud;1;0;0;4598;866;1377;38.35465; -0.47583
+2022;3014;Alicante/Alacant;32;L'Alacantí;HOSPITAL VITHAS MEDIMAR INTERNACIONAL;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;1;66;13348;2642;4572;38.35869; -0.46757
+2022;3014;Alicante/Alacant;32;L'Alacantí;HOSPITAL VITHAS PERPETUO INTERNACIONAL;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;1;103;13705;2862;5508;38.35256; -0.47619
+2022;3014;Alicante/Alacant;32;L'Alacantí;HPTAL. PSIQUIÁTRICO PENIT.FONCALENT;Hospital psiquiátrico;Otros organismos administración central;Otras entidades públicas;1;0;432;22797;18513;26969;38.34973; -0.56351
+2022;3014;Alicante/Alacant;32;L'Alacantí;IBERMUTUAMUR ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;5114;0;511;38.36471; -0.48831
+2022;3014;Alicante/Alacant;32;L'Alacantí;INSTITUTO BERNABEU;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;1;0;2374;2213;3584;38.36537; -0.45771
+2022;3014;Alicante/Alacant;32;L'Alacantí;JUAN XXIII;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1082;884;1534;38.37331; -0.4775
+2022;3014;Alicante/Alacant;32;L'Alacantí;LOS ANGELES;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;5088;862;1677;38.36269; -0.49685
+2022;3014;Alicante/Alacant;32;L'Alacantí;MC MUTUAL ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;0;0;0;900;0;450;38.34445; -0.50986
+2022;3014;Alicante/Alacant;32;L'Alacantí;MUTUA UNIVERSAL -ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;350;0;350;38.34132; -0.4945
+2022;3014;Alicante/Alacant;32;L'Alacantí;QUIRÓN PREVENCIÓN;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;367;0;367;38.33987; -0.4974
+2022;3014;Alicante/Alacant;32;L'Alacantí;QUIRONSALUD ALICANTE;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;0;1916;0;479;38.3642; -0.46207
+2022;3014;Alicante/Alacant;32;L'Alacantí;SERVICIO ESPECIAL DE URGENCIAS ALICANTE;Centros de urgencia y casas de socorro;Comunidad autónoma;Servicio autonómico de salud;1;1;0;139816;49677;72381;38.36218; -0.48596
+2022;3014;Alicante/Alacant;32;L'Alacantí;UMIVALE-MAZ ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;954;0;4774;38.34937; -0.50549
+2022;3046;Busot;32;L'Alacantí;CENTRO DE SALUD DE BUSOT;Centro de salud;Municipio;Servicio autonómico de salud;1;0;0;450;0;450;38.48455; -0.41578
+2022;3050;Campello (el);32;L'Alacantí;CENTRE DE SALUT EL CAMPELLO;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1280;0;1280;38.43178; -0.39697
+2022;3050;Campello (el);32;L'Alacantí;CONSULTORI AUXILIAR COVETA FUMÀ-CALA DOR;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;160;0;160;38.46902; -0.33699
+2022;3050;Campello (el);32;L'Alacantí;CONSULTORI AUXILIAR PLAYA MUCHAVISTA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;170;0;1153;38.39227; -0.40995
+2022;3083;Xixona/Jijona;32;L'Alacantí;CENTRO DE SALUD DE XIXONA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1984;1732;3066;38.53181; -0.50495
+2022;3090;Mutxamel;32;L'Alacantí;CENTRO DE SALUD DE MUTXAMEL;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1076;143;681;38.41373; -0.44202
+2022;3090;Mutxamel;32;L'Alacantí;CENTRO REHAB NEUROLÓGICA CASAVERDE;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;40;4793;3070;5685;38.4203; -0.47
+2022;3090;Mutxamel;32;L'Alacantí;CONSULTORIO AUXILIAR LA HUERTA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;139;0;1316;38.41188; -0.47868
+2022;3122;Sant Vicent del Raspeig/San Vicente del Raspeig;32;L'Alacantí;CENTRO DE SALUD SAN VICENTE I;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3040;0;1002;38.40418; -0.53082
+2022;3122;Sant Vicent del Raspeig/San Vicente del Raspeig;32;L'Alacantí;CENTRO DE SALUD SAN VICENTE II;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2920;2760;4930;38.39183; -0.51716
+2022;3122;Sant Vicent del Raspeig/San Vicente del Raspeig;32;L'Alacantí;CONSULTORIO HAYGON;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;150;3918;4068;38.38327; -0.50232
+2022;3122;Sant Vicent del Raspeig/San Vicente del Raspeig;32;L'Alacantí;HOSPITAL SAN VICENTE;Hospital geriátrico y larga estancia;Comunidad autónoma;Servicio autonómico de salud;1;1;179;10548;24957;27594;38.40333; -0.53073
+2022;3119;Sant Joan d'Alacant;32;L'Alacantí;CENTRO DE SALUD SANT JOAN;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2153;2120;3267;38.39227; -0.4375
+2022;3119;Sant Joan d'Alacant;32;L'Alacantí;CENTRO DE TRANSF COMUNIDAD VALENCIANA;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1305;1930;2656;38.38788; -0.43614
+2022;3119;Sant Joan d'Alacant;32;L'Alacantí;CENTRO REHABILITACIÓN PSICOSOCIAL;Hospital psiquiátrico;Diputaciones, consejos o cabildos;Diputaciones, consejos, cabildos;1;0;56;9604;12081;16842;38.39064; -0.44027
+2022;3119;Sant Joan d'Alacant;32;L'Alacantí;HOSPITAL UNIVERSITARIO SANT JOAN;Hospital general;Comunidad autónoma;Servicio autonómico de salud;1;1;396;38654;23007;40149;38.38876; -0.43478
+2022;3119;Sant Joan d'Alacant;32;L'Alacantí;SANATORIO PSIQUIATRICO PROVINCIAL;Hospital psiquiátrico;Diputaciones, consejos o cabildos;Diputaciones, consejos, cabildos;1;0;86;3225;11117;11300;38.3931; -0.43896
+2022;3132;Torre de les Maçanes (La)/Torremanzanas;32;L'Alacantí;CONSULTORIO AUXILIAR DE TORREMANZANAS;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;77;45;122;38.60616; -0.41935
+2022;3121;Santa Pola;33;El Baix Vinalopó;CENTRO MEDICO QUIRON SALUD;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;233;0;443;38.19262; -0.55725
+2022;3121;Santa Pola;33;El Baix Vinalopó;CENTRO SALUD SANTA POLA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3133;760;2054;38.19406; -0.56193
+2022;3121;Santa Pola;33;El Baix Vinalopó;CONSULTORIO AUXILIAR CASA DEL MAR;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;575;313;888;38.19092; -0.55764
+2022;3121;Santa Pola;33;El Baix Vinalopó;CONSULTORIO AUXILIAR GRAN ALACANT;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;635;60;695;38.22752; -0.52295
+2022;3121;Santa Pola;33;El Baix Vinalopó;CONSULTORIO DE VERANO PLAYA LISA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;1072;0;536;38.19402; -0.57853
+2022;3121;Santa Pola;33;El Baix Vinalopó;CONSULTORIO DE VERANO SANTA POLA  ESTE;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;90;0;90;38.18945; -0.539
+2022;3059;Crevillent;33;El Baix Vinalopó;CENTRO DE SALUD DE CREVILLENTE;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;2548;1200;2082;38.25004; -0.80516
+2022;3059;Crevillent;33;El Baix Vinalopó;CENTRO MAZ CREVILLENTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;136;0;422;38.24613; -0.80689
+2022;3059;Crevillent;33;El Baix Vinalopó;CONSULTORIO MEDICO EL REALENGO;Consultorio local;Municipio;Privado no benéfico;0;0;0;90;0;225;38.20137; -0.81228
+2022;3059;Crevillent;33;El Baix Vinalopó;CONSULTORIO MEDICO SAN FELIPE NERI;Consultorio local;Municipio;Privado no benéfico;0;0;0;150;0;150;38.17642; -0.79827
+2022;3065;Elche/Elx;33;El Baix Vinalopó;ACTIVA MUTUA ELCHE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;427;0;1360;38.26976; -0.68114
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE ESPECIALIDADES SAN FERMIN;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;4179;0;955;38.26875; -0.7065
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE SALUD CARRUS OESTE-TOSCAR;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;3059;994;2500;38.26834; -0.71706
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE SALUD DE ALTABIX;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;5426;1810;4547;38.2726; -0.68188
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE SALUD DE CARRUS;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1500;313;1141;38.27828; -0.71042
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE SALUD DOCTOR SAPENA;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;2515;157;1158;38.26226; -0.7115
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE SALUD EL ALTET;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;173;0;173;38.27185; -0.53767
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE SALUD EL PLA;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1049;0;907;38.25447; -0.70279
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CENTRO DE SALUD EL RAVAL;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2275;570;2323;38.25909; -0.69617
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CLINICA PRIVADA EL PLA;Otros centros sanitarios;Otros privado no benéfico;Privado no benéfico;1;0;null;100;0;220;38.26403; -0.70264
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORI MEDIC DE LA FOIA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;200;0;980;38.21161; -0.68756
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO ALBERTO GARCÍA;Consultorio local;Comunidad autónoma;Privado no benéfico;1;0;0;187;0;1555;38.26304; -0.70373
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO ALGODA-MATOLA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;90;0;3458;38.23301; -0.75488
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO AUXILIAR PELETA MAITINO;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;708;0;489;38.25071; -0.63391
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO DE ARENALES DEL SOL;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;150;0;462;38.25003; -0.51716
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO DE LA MARINA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;145;0;935;38.14164; -0.64613
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO DE LAS BAYAS;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;242;0;1513;38.22018; -0.64512
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO DE TORRELLANO;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;471;0;471;38.29482; -0.5877
+2022;3065;Elche/Elx;33;El Baix Vinalopó;CONSULTORIO DE VALVERDE;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;269;180;449;38.23522; -0.59555
+2022;3065;Elche/Elx;33;El Baix Vinalopó;FREMAP ELCHE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;101;0;313;38.25876; -0.70426
+2022;3065;Elche/Elx;33;El Baix Vinalopó;HOSPITAL DEL VINALOPO;Hospital general;Comunidad autónoma;Privado no benéfico;1;1;214;45000;38800;58769;38.2556; -0.71493
+2022;3065;Elche/Elx;33;El Baix Vinalopó;HOSPITAL GENERAL DE ELCHE;Hospital general;Comunidad autónoma;Servicio autonómico de salud;1;1;492;43073;0;35614;38.26009; -0.68489
+2022;3065;Elche/Elx;33;El Baix Vinalopó;IBERMUTUAMUR;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;1159;0;2411;38.2594; -0.7101
+2022;3065;Elche/Elx;33;El Baix Vinalopó;IBERMUTUAMUR;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;520;0;553;38.26413; -0.70322
+2022;3065;Elche/Elx;33;El Baix Vinalopó;IMED;Hospitales otras especialidades;Otros privado no benéfico;Privado no benéfico;1;1;98;24500;5183;14829;38.28813; -0.61585
+2022;3065;Elche/Elx;33;El Baix Vinalopó;MAZ ELCHE AVENIDA DE ALICANTE;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;1017;0;2228;38.2707; -0.67737
+2022;3065;Elche/Elx;33;El Baix Vinalopó;MUTUA ASEPEYO;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;500;0;3140;38.2698; -0.66975
+2022;3065;Elche/Elx;33;El Baix Vinalopó;MUTUA ILICITANA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;430;0;532;38.26747; -0.69829
+2022;3065;Elche/Elx;33;El Baix Vinalopó;UNIDAD DE ALCOHOLOGÍA;Otros centros sanitarios;Municipio;Servicio autonómico de salud;1;0;0;317;0;772;38.26195; -0.70736
+2022;3064;Dolores;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD DOLORES ANTONIO CEREZO;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1051;335;1140;38.13985; -0.77179
+2022;3055;Catral;34;El Baix Segura / La Vega Baja;NUEVO CENTRO SALUD CATRAL;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;803;630;1430;38.15625; -0.80216
+2022;3044;Bigastro;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD DE BIGASTRO;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2730;0;993;38.06413; -0.90037
+2022;3049;Callosa de Segura;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD DE CALLOSA DE SEGURA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2173;547;1540;38.11847; -0.87821
+2022;3034;Benijófar;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE BENIJÓFAR;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;367;90;457;38.07838; -0.73689
+2022;3015;Almoradí;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD DE ALMORADI;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2844;664;1974;38.10459; -0.79961
+2022;3005;Albatera;34;El Baix Segura / La Vega Baja;CENTRO DE REHABILITACION;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;181;37;218;38.17688; -0.87659
+2022;3005;Albatera;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD DE ALBATERA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1206;176;850;38.18254; -0.87043
+2022;3012;Algorfa;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE ALGORFA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;150;2;152;38.08633; -0.7954
+2022;3024;Benejúzar;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE BENEJUZAR;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;446;664;1110;38.07444; -0.84155
+2022;3025;Benferri;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE BENFERRI;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;150;10;220;38.14191; -0.96356
+2022;3058;Cox;34;El Baix Segura / La Vega Baja;CENTRO DE REHABILITACION;Otros centros sanitarios;Municipio;Servicio autonómico de salud;1;0;0;140;34;174;38.14176; -0.88716
+2022;3058;Cox;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE COX;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;565;637;1193;38.14082; -0.89203
+2022;3070;Formentera del Segura;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR FORMENTERA SEGURA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;244;37;281;38.08434; -0.74675
+2022;3070;Formentera del Segura;34;El Baix Segura / La Vega Baja;CONSULTORIO LOCAL LOS PALACIOS;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;80;0;820;38.0895; -0.72731
+2022;3074;Granja de Rocamora;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR GRANJA DE ROCAMORA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;340;568;908;38.15182; -0.89529
+2022;3061;Daya Nueva;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE DAYA NUEVA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;130;0;130;38.11418; -0.76212
+2022;3062;Daya Vieja;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DAYA VIEJA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;214;0;107;38.10472; -0.73685
+2022;3076;Guardamar del Segura;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD GUARDAMAR DEL SEGURA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1350;52;661;38.08846; -0.65561
+2022;3076;Guardamar del Segura;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR EL CAMPO;Consultorio local;Municipio;Comunidad autónoma sin transferencias;1;0;0;75;83;158;38.06279; -0.68024
+2022;3076;Guardamar del Segura;34;El Baix Segura / La Vega Baja;UNIDAD DE REHABILITACION;Otros centros sanitarios;Comunidad autónoma;Privado no benéfico;1;0;0;249;0;249;38.0899; -0.64901
+2022;3080;Jacarilla;34;El Baix Segura / La Vega Baja;CENTRO AUXILIAR DE JACARILLA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;160;80;244;38.06064; -0.87014
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;C. DE ESPECIALIDADES NUESTRO PADRE JESUS;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;3004;0;555;38.0808; -0.94555
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;C. SALUD RABALOCHE DR MARCELINO MELLADO;Centro de salud;Municipio;Servicio autonómico de salud;1;0;0;1691;225;1070;38.08649; -0.95117
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD D. ÁLVAREZ DE LA RIVA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;2600;1835;2855;38.08573; -0.93832
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD ORIHUELA COSTA;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;785;1694;2404;37.91126; -0.74093
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD PUBLICA DE ORIHUELA;Otros centros sanitarios;Comunidad autónoma;Servicio autonómico de salud;1;0;0;724;0;344;38.08491; -0.94285
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR EL MUDAMIENTO;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;148;0;148;38.11964; -0.83616
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR MEDIA LEGUA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;null;173;0;173;38.0994; -0.90858
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO LOCAL LA APARECIDA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;158;0;750;38.08108; -1.00761
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MÉDICO  RAIGUERO DE BONANZA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;228;0;228;38.08982; -0.97452
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MEDICO BARBARROJA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;112;0;345;38.27713; -0.96254
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MÉDICO CORRENTÍAS;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;40;0;40;38.07648; -0.92608
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MEDICO DE ARNEVA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;175;881;1116;38.05509; -0.94027
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MÉDICO DE HURCHILLO;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;123;0;247;38.05766; -0.92032
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MEDICO DE LA MATANZA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;134;576;710;38.12711; -1.00634
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MEDICO DE LA MURADA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;100;0;210;38.17402; -0.96411
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MEDICO DE MOLINS;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;492;0;492;38.08217; -0.90853
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MÉDICO DE TORREMENDO;Consultorio local;Otros;Servicio autonómico de salud;1;0;0;200;0;398;37.99215; -0.86474
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MEDICO DE VIRGEN DEL CAMINO;Consultorio local;Otros;Servicio autonómico de salud;1;0;0;45;0;90;38.16586; -0.93246
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MEDICO DESAMPARADOS;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;67;0;394;38.06232; -0.98228
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MÉDICO ESCORRATEL;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;150;0;296;38.10112; -0.92744
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MÉDICO LA CAMPANETA;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;192;0;192;38.08622; -0.89203
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CONSULTORIO MÉDICO SAN BARTOLOMÉ;Consultorio local;Otros;Otros;1;0;0;221;0;334;38.09482; -0.86322
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;CTRO. AUXILIAR MEDICO;Consultorio local;Municipio;Otras entidades públicas;1;0;null;615;0;615;38.08468; -0.9487
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;FRATERNIDAD MUPRESPA ORIHUELA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;258;0;682;38.08186; -0.94814
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;FREMAP;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;456;0;2642;38.08186; -0.95035
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;HOSPITAL GENERAL VEGA BAJA;Hospital general;Comunidad autónoma;Servicio autonómico de salud;1;1;361;19533;54238;62300;38.08827; -0.85386
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;IBERMUTUAMUR ORIHUELA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;218;20;238;38.08228; -0.94432
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;POLICLÍNICA LA VEGA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;304;0;380;38.08351; -0.94378
+2022;3099;Orihuela;34;El Baix Segura / La Vega Baja;UMIVALE VEGA BAJA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;607;0;1103;38.0842; -0.93968
+2022;3120;San Miguel de Salinas;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD DE SAN MIGUEL DE SALINAS;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;1362;0;454;37.97923; -0.78928
+2022;3113;Rojales;34;El Baix Segura / La Vega Baja;CENTRO DE REHABILITACION;Otros centros sanitarios;Otros;Servicio autonómico de salud;1;0;0;170;0;480;38.08568; -0.72825
+2022;3113;Rojales;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD ROJALES II LO MARABÚ;Centro de salud;Municipio;Servicio autonómico de salud;1;0;0;1114;1284;2398;38.06109; -0.71815
+2022;3113;Rojales;34;El Baix Segura / La Vega Baja;CENTRO SANITARIO INTEGRADO ROJALES;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;825;175;1000;38.08539; -0.72894
+2022;3113;Rojales;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR HEREDADES;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;30;0;358;38.09105; -0.76049
+2022;3118;San Fulgencio;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE LA MARINA-OASIS;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;208;1258;1466;38.13556; -0.68667
+2022;3118;San Fulgencio;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE SAN FULGENCIO;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;201;370;464;38.11461; -0.71748
+2022;3109;Rafal;34;El Baix Segura / La Vega Baja;NUEVO CONSULTORIO AUXILIAR DE SALUD;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;457;753;1210;38.10222; -0.84632
+2022;3111;Redován;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE REDOVAN;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;355;0;306;38.11377; -0.90714
+2022;3111;Redován;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR SAN CARLOS;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;85;64;149;38.13741; -0.93131
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;CENTRO ATENCION PRIMARIA SAN LUIS-LA SIE;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1200;0;950;38.01394; -0.69126
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD LA MATA;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;1980;0;5204;38.01807; -0.65878
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;CENTRO DE SALUD TORREVIEJA 1 (LA LOMA);Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;2311;0;2746;37.98453; -0.67365
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;CENTRO SALUD 2 TORREVIEJA (EL ACEQUION);Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;3743;0;7625;37.97719; -0.69383
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;HOSPITAL QUIRONSALUD TORREVIEJA;Hospital general;Otros privado no benéfico;Privado no benéfico;1;1;132;22000;0;55000;38.00659; -0.67281
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;HOSPITAL TORREVIEJA;Hospital general;Comunidad autónoma;Privado no benéfico;1;1;269;38582;54997;66194;37.96347; -0.71553
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;IMED TORREVIEJA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;756;0;12652;37.9893; -0.68502
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;MUTUA UNIVERSAL TORREVIEJA;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;307;0;634;37.98107; -0.68756
+2022;3133;Torrevieja;34;El Baix Segura / La Vega Baja;TORREVIEJA CENTRO C/ PATRICIO PEREZ;Centro de salud;Comunidad autónoma;Privado no benéfico;1;0;0;427;0;297;37.97747; -0.68463
+2022;3902;Pilar de la Horadada;34;El Baix Segura / La Vega Baja;AMPLIACIÓN CENTRO DE SALUD.;Centro de salud;Comunidad autónoma;Servicio autonómico de salud;1;0;0;743;1501;2244;37.8639; -0.7873
+2022;3902;Pilar de la Horadada;34;El Baix Segura / La Vega Baja;CLINICA VIRGEN DEL PILAR S.L.;Otros centros sanitarios;Mutua de accidentes de trabajo;Mutuas accidentes de trabajo;1;0;0;217;0;217;37.86425; -0.79192
+2022;3902;Pilar de la Horadada;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR MIL PALMERAS;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;0;0;0;118;0;1268;37.88431; -0.75496
+2022;3902;Pilar de la Horadada;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR PINAR DE CAMPOVERDE;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;225;197;308;37.9092; -0.844
+2022;3902;Pilar de la Horadada;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR TORRE DE HORADADA;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;180;0;399;37.86986; -0.75873
+2022;3902;Pilar de la Horadada;34;El Baix Segura / La Vega Baja;C.S.I. PILAR DE LA HORADADA;Ambulatorio, centro especialidades o policlínicas;Comunidad autónoma;Servicio autonómico de salud;1;0;0;835;364;1199;37.86347; -0.78773
+2022;3903;Montesinos (Los);34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR LOS MONTESINOS;Consultorio local;Municipio;Servicio autonómico de salud;1;0;0;309;442;751;38.02539; -0.74745
+2022;3904;San Isidro;34;El Baix Segura / La Vega Baja;CONSULTORIO AUXILIAR DE SAN ISIDRO;Consultorio local;Comunidad autónoma;Servicio autonómico de salud;1;0;0;395;0;984;38.17028; -0.8369

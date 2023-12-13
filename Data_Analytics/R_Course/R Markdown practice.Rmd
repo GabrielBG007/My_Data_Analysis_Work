@@ -1,0 +1,64 @@
+---
+title: "R Markdown practice"
+author: "Gabriel Bernabé García"
+date: "2023-04-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+
+```
+
+
+
+# Introduction
+
+Hi everybody! This is a Markdown practice document. *italic* and **bold**.
+
+# R Code
+
+```{r FIRST, eval=TRUE}
+values <- rnorm(1:10)
+values
+
+
+```
+
+
+# More things
+
+## Subheadings
+
+### More subheadings
+
+
+Unordered lists:
+
+- first item
+
+- second item
+
+Ordered lists:
+
+1. first
+
+2. second
+
+
+We can insert an image like this : ![alt text](prueba.tiff){width="20%"}
+
+We can add citations^[footnotes]
+
+We can use math mode $\alpha$ and so on. 
+
+Finally, we can make nice tables. (We need to use library knitr)
+
+```{r}
+x <- head(msleep)
+
+kable(x)
+```
+
