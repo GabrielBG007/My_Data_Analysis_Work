@@ -1,0 +1,126 @@
+library(leaflet)
+library(sf)
+library(tidyverse)
+library(mapSpain)
+library(readxl)
+library(janitor)
+library(maps)
+
+##Provinces
+provinces <- esp_get_prov_siane() 
+ 
+
+
+pop_prov <- mapSpain::pobmun19 %>% 
+  select(cpro,
+         Province = provincia,
+         pob19,
+         men,
+         women) %>% 
+  group_by(Province) %>% 
+  summarise(cpro = max(cpro),
+            Population = sum(pob19),
+            Men = sum(men)/Population * 100,
+            Women = sum(women)/Population * 100)
+
+
+provinces_map <- provinces %>% 
+  left_join(pop_prov,
+            by = c("cpro"="cpro"))
+ 
+
+#Cities
+cities_sf <- world.cities %>% 
+  filter(country.etc == "Spain") %>% 
+  st_as_sf(coords = c("long","lat"), crs= 4326)
+
+top_10_cities <- cities_sf %>% 
+  arrange(desc(pop)) %>% 
+  slice_max(pop, n=10) %>% 
+  mutate(city_type = ifelse(capital == 1, "Capital City", "City"))
+
+top_10_cities$ID <- seq.int(nrow(top_10_cities))
+         
+  
+
+
+  
+
+
+## Province Palette
+pal_provinces_map <- colorQuantile("Reds",provinces_map$Population)
+
+## Cities Color
+color_cities <- colorFactor(c("magenta", "aquamarine"), c("Capital City", "City"))
+
+
+##Function Provinces
+province_pop_up <- function(province_name,Sum_Pop,Per_Men,Per_Women){
+  paste("<b>Province:</b>", province_name,
+        "<br>",
+        "<b>Population:</b>", scales::number(Sum_Pop,big.mark = ","),
+        "<br>",
+        "<b>Men:</b>", scales::number(Per_Men,accuracy = 1, suffix = "%"),
+        "<br>",
+        "<b>Women:</b>", scales::number(Per_Women,accuracy = 1, suffix = "%"))
+}
+
+##Function Cities
+cities_pop_up <- function(city_name, Sum_Pop, Order_Num){
+  paste("<b>City:</b>", city_name,
+        "<br>",
+        "<b>Population:</b>", scales::number(Sum_Pop,big.mark = ","),
+        "<br>",
+        "<b>Rank:</b>", scales::number(Order_Num, suffix = "º"))
+}
+
+##Function Cities Legend
+cities_legend <- function(x){
+  paste("Top",x,
+        "<br>",
+        "Most Populous Cities")
+}
+
+
+##Leaflet
+leaflet %>% 
+  addProviderTiles(providers$Esri.WorldImagery) %>% 
+  addPolygons(data = provinces_map,
+              weight = 0.5,
+              color = "black",
+              fillColor = ~pal_provinces_map(Population),
+              fillOpacity = 1,
+              popup = ~province_pop_up(Province,Population,Men,Women),
+              label = ~Province)
+
+leaflet() %>% 
+  addProviderTiles(providers$Esri.WorldImagery) %>% 
+  addPolygons(data = provinces_map,
+              weight = 0.5,
+              color = "black",
+              fillColor = ~pal_provinces_map(Population),
+              fillOpacity = 1,
+              popup = ~province_pop_up(Province,Population,Men,Women),
+              label = ~Province) %>% 
+  addLegend(data = provinces_map,
+            pal = pal_provinces_map,
+            values = ~Population,
+            opacity = 1,
+            title = "Population (Percentile)") %>% 
+  addCircleMarkers(data = top_10_cities,
+                   color = "black",
+                   weight = 1.5,
+                   label = ~name,
+                   popup = ~cities_pop_up(name,pop,ID),
+                   fillColor = ~color_cities(city_type),
+                   fillOpacity = 1) %>% 
+  addLegend(data = top_10_cities,
+            pal = color_cities,
+            values = ~city_type,
+            title = cities_legend(10),
+            opacity = 1)
+ 
+  
+              
+ 
+
