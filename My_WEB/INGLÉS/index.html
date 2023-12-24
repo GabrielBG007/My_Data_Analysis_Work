@@ -13,17 +13,20 @@
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <a href="#hero"><h1><span>G</span>abriel <span>B</span>ernabé</h1></a>
+          <ul>
+            <li><h1><span>G</span>abriel <span>B</span>ernabé</h1></li>
+            <li><a href="#hero"><img src="./img/G_ICON.png" alt=""></a></li>
+          </ul>
         </div>
         <div class="nav-list">
           <div class="hamburger"><div class="bar"></div></div><!-- Para hacer la animación del menú en forma de hamburguesa -->
           <ul><!-- Ul significa unordered list y lo que vamos a hacer va a ser crear una especie de menú con listas clickables -->
             <li><a href="#hero" data-after="Home">Home</a></li><!-- Con data-after estamos creando una variable que vamos a utilizar después en el css para crear el efecto en el menú del header -->
             <li><a href="#Bio" data-after="Biography">Bio</a></li>
-            <li><a href="#projects" data-after="Data">Data</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
-            <li><a href="https://gabrielbernabegarciaes.000webhostapp.com/" class="Spanish" data-after="Spanish" title="Spanish">ES</a></li>
+            <li><a href="https://gabrielbernabegarciaes.netlify.app/" class="Spanish" data-after="Spanish" title="Spanish">ES</a></li>
           </ul>
         </div>
       </div>
@@ -39,6 +42,9 @@
             <h1>My Name is<span></span></h1>
             <h1>Gabriel<span></span></h1>
             <a href="#projects" type="button" class="cta">Portfolio</a><!-- a y un href dentro significa que hemos incluido un link dentro de la página -->
+            <video autoplay loop muted plays-inline class="back-video" >
+              <source src="./img/Storm.mp4" type="video/mp4"> 
+            </video>
         </div>
     </div>
  </section>
@@ -49,10 +55,11 @@
     <div class="Bio container"><!-- Ponemos la clase del container de arriba para poder usar después flex y referenciar el formato -->
       <div class="bio-top">
         <h1 class="section-title">B<span>i</span>O</h1>
-        <p class= "section-title-p"><span>H</span>i, I'm Gabriel. I'm 22 years old, and I was born in Alicante (Spain). I just earned my degree in Environmental Sciences so 
-           it would be fair to say that I'm an Environmental Scientist! During the process of working on my TFG (Bachelor's Thesis), I got really interested
-           in the world of data analysis, and since then, I've been self-teaching myself the most important aspects of it.    
-           I've always been a hard-working person and I intend to remain that way until I'm out of breath! Here are some of my hobbies:
+        <p class= "section-title-p"><span>H</span>i, I'm Gabriel. I was born in Petrer, Spain. 
+          I earned my degree in Environmental Sciences in July 2023. During the process of working on my bachelor's thesis, I became really interested
+          in the world of data analysis. I love the idea of solving real-life problems by working with data and visualizing it. 
+          I've been self-teaching myself the most important aspects of the treatment and handling of data.    
+          I've always been a hard-working person and I intend to remain that way until I'm out of breath! Here are some of my hobbies:
         </p>
       </div>
       <div class="bio-bottom">
@@ -95,71 +102,102 @@
     <div class="all-projects">
       <div class="project-item">
         <div class="project-info">
-          <h1 class="title1"><span>Excel</span></h1>
-          <h2>Intermediate - Advanced Level</h2>
-          <p>I've been using Excel pretty much since my school days, but things got more serious in college where I started to learn more about 
-             the main functions and also the best ways of visualizing data. What really made me break a sweat was the elaboration of my Bachelor's Thesis,
-             where I had to deal with more than 20.000 rows of data! (that was a lot for me, considering my basic level of Excel).
-             I had to learn better ways of cleaning data and organizing it.</p>
-          <p>I completed a 3.5-hour Advanced Excel course, where I learned about dynamic arrays as well as functions like XLOOKUP,XMATCH,TWO-WAY-LOOKUPS,
-             CHOOSE,SWITCH, and all types of rounding. I also completed a course about pivot tables and another one related with data cleaning (both were an 1 hour long).</p>
-        </div>  
-        <div class="project-img">
-          <img src="./img/Excel.png" alt="img"><!-- Alt means alternative -->
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <h1 class="title1"><span>SQL</span></h1>
-          <h2>Basic - Intermediate Level</h2>
-          <p>During my academic career I never made use of SQL. When I started to search for the requirements for becoming a Data Analyst, I found out that 
-             having a decent knowledge of SQL was needed, that's why I completed two online SQL courses, one lasting 4 hours and the other 20 hours. 
+          <h1 class="title1"><span>Healthcare Centers in Alicante, Spain</span></h1>
+          <h2>Platform: Arcgis.com</h2>
+          <p>The main purpose of this project was to visualize the distribution of healthcare centers in this province. Each center was identified by its name, center type, number of beds, location, and other relevant details. 
+            It is clear to see how a larger population translates to a bigger number of healthcare centers.
+          <p>There were a total of 393 healthcare centers. The city that had the highest number of centers 
+              was Alicante (50), followed by Elche (29) and Orihuela (29). In addition, there were a total of 25 hospitals, with 13 of them being general hospitals.</p>
           </p>
-          <p>In these courses I learned about the creation of tables, data types,
-            writing basic query using UPDATE, DELETE, GROUP BY, ORDER BY as well as some more complicated queries using JOINS,UNIONS, nested queries...</p>
-        </div>  
-        <div class="project-img">
-          <img src="./img/SQL.png" alt="img"><!-- Alt means alternative -->
-        </div>
-      </div>
-      <div class="project-item">
-        <div class="project-info">
-          <h1 class="title1"><span>R Studio</span></h1>
-          <h2>Intermediate Level</h2>
-          <p>R Studio was the one that really got me into the world of data analysis, especially the visualization part of it. I was suggested a library called "openair" 
-             because my TFG was related to the topic of Air Pollution.
+          <p><span>Data Source:</span> <a href="https://datos.gob.es/es/" 
+            target="_blank" class="Arcgis-link"> datos.gob.es</a>
           </p>
-          <p> Time went by and I found myself a bit limited with the functionality of this library, that's why 
-            I began to look out for more libraries ( a right choice). I got to know libraries like "tidyverse", "cowplot", "datarium" ... wich really helped me to take the next step 
-            in improving my graphic design and also structuring my datasets. The amount of libraries that you can find to visualize and clean your data is quite impressive.  </p>
+          <p> Click on the link button to interact with the map. <a href="https://www.arcgis.com/apps/instant/basic/index.html?appid=650a0e4606934ed5b90332963a1431b0" type="button" target="_blank" class="link-button">LINK</a></p>
+          
+         
         </div>  
         <div class="project-img">
-          <img src="./img/R.png" alt="img"><!-- Alt means alternative -->
+          <video autoplay loop muted plays-inline class="project-video-1" >
+            <source src="./img/Alicante_Healthcare.mp4" type="video/mp4"> 
+          </video>
+          <!-- <iframe src="https://www.arcgis.com/apps/instant/basic/index.html?appid=650a0e4606934ed5b90332963a1431b0"  frameborder="0" style="border:0" allowfullscreen>No se admiten iFrames en esta página.</iframe> --><!-- Alt means alternative -->
         </div>
       </div>
       <div class="project-item">
         <div class="project-info">
-          <h1 class="title1"><span>Python</span></h1>
-          <h2>Basic Level</h2>
-          <p>Once I had completed the SQL course, I began a 16-hour Python course. Right away, I knew that this one was going to be a little bit more challenging, and I was spot on. 
+          <h1 class="title1"><span>Spain Population Map (2019)</span></h1>
+          <h2>Platform: R Studio</h2>
+          <p>This project was conducted with the purpose of visualizing the demographic traits of Spanish provinces and discovering the top 10 most populous cities in the country.
+             Each province was identified by its name, population amount, and percentage of men and women.
           </p>
-          <p>Python was more technical and also way more immersed into the "programming world". Here I learned about WHILE LOOPS, FOR LOOPS, LISTS, DICTIONARIES,FUNCTIONS, EXCEPTIONS, REGULAR EXPRESSIONS,METHODS,
-            PROPERTIES... (a lot!!). I also completed a shorter course about supervised and unsupervised machine learning (this one was even harder to follow along with). </p>
+          <p>The province with the highest population was Madrid (6,663,394), followed by Barcelona (5,664,579) and Valencia (2,565,124). 
+          </p>
+          <p>The packages used in RStudio were the following: leaflet, sf, tidyverse, mapSpain, readxl, janitor, maps.</p>
+          <p><span>Data Source:</span> The mapSpain package is based on the GISCO Eurostat database <https://ec.europa.eu/eurostat/web/gisco> 
+            and CartoBase SIANE from Instituto Geografico Nacional <https://www.ign.es/>.
+          </p>
+          <p>Click on the link button to interact with the map.<a href="https://rpubs.com/Gabriel007/1131724" type="button" target="_blank" class="link-button">LINK</a></p> 
         </div>  
         <div class="project-img">
-          <img src="./img/Python.png" alt="img"><!-- Alt means alternative -->
+          <video autoplay loop muted plays-inline class="project-video-2" >
+            <source src="./img/Spain_Pop.mp4" type="video/mp4"> 
+          </video>
         </div>
       </div>
       <div class="project-item">
         <div class="project-info">
-          <h1 class="title1"><span>Tableau and Power BI</span></h1>
-          <h2>Basic - Intermediate Level</h2>
-          <p>I completed a total of 8 hours of courses for both Tableau and Power BI platforms. I don't know why I wasn't told about these kind of programs in school or college; building charts 
-             and creating dashboards were way easier and also more eye-catching. What I noticed is that Tableau is better with the visualization aspect than Power BI, but the latter one is better 
-             with modelling thanks to Power Query, which makes data cleaning look easy. </p>
+          <h1 class="title1"><span>Biodiversity in North American National Parks</span></h1>
+          <h2>Platform: Tableau</h2>
+          <p>This project analyses data coming from the North American National Parks. The species lists provide information on the presence and status of species in those parks.
+              These species lists are "works in progress" and the absence of a species from a list does not necessarily mean the species is absent from a park.
+              The time and effort spent on species inventories varies from park to park, which may result in data gaps.
+              Species taxonomy changes over time and reflects regional variations or preferences; therefore, records may be listed under a different species name.
+          </p>
+          <p><span>Data Source:</span> <a href="https://www.kaggle.com/datasets/nationalparkservice/park-biodiversity" 
+            target="_blank" class="tableau-link">kaggle.com</a>
+          </p>
+          <p> Click on the link button to interact with the dashboard.
+            <a href="https://public.tableau.com/app/profile/gabriel.bernab.garc.a/viz/American_National_Parks/Home" type="button" target="_blank" class="link-button">LINK</a>  
+          </p> 
         </div>  
         <div class="project-img">
-          <img src="./img/Tableau.png" alt="img"><!-- Alt means alternative -->
+          <video autoplay loop muted plays-inline class="project-video-3" >
+            <source src="./img/American_National_Parks.mp4" type="video/mp4"> 
+          </video>
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1 class="title1"><span>Global Significant Volcanic Eruptions <br> (4360 BC - 2014)</span></h1>
+          <h2>Platform: Power BI</h2>
+          <p>This project studies all the significant volcanic eruptions that occurred from 4360 BC until 2014.
+            A significant eruption is classified as one that meets at least one of the following criteria: 
+            caused fatalities, caused moderate damage (approximately $1 million or more), had a Volcanic Explosivity Index (VEI) of 6 or greater,
+            generated a tsunami, or was associated with a significant earthquake. The provided database contained information about the latitude,
+            longitude, elevation, type of volcano, last known eruption, VEI index, and socio-economic data, such as the total number of casualties.
+          </p>
+          <p><span>Data Source:</span> National Centers for Envrionmental Information (NOAA). </p>
+          <p>Click on the button to download the Power BI file (only available for PC).
+            <a href="./img/Significant_Volcano_Eruptions.pbix" type="button" download class="link-button-download">DOWNLOAD</a>
+          </p>
+            
+        </div>  
+        <div class="project-img">
+          <video autoplay loop muted plays-inline class="project-video-4" >
+            <source src="./img/Volcano.mp4" type="video/mp4"> 
+          </video>
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1 class="title1"><span>Coming Soon!!!</span></h1>
+          <h2>Platform: ...</h2>
+          <p>...</p>
+        </div>  
+        <div class="project-img">
+          <video autoplay loop muted plays-inline class="project-video-5" >
+            <source src="./img/Coming_Soon.mp4" type="video/mp4"> 
+          </video>
         </div>
       </div>
     </div>
@@ -181,8 +219,8 @@
       <p>I earned my High School Degree in Science at I.E.S Poeta Paco Mollà, achieving one of the top three highest marks in my class. I then embarked on my university journey at Universidad Miguel Hernández, 
          majoring in Environmental Sciences. I spent 4 years doing this major, learning a lot about the characteristics of the different components in wich our enviornment is made out of as well as 
          studying variety of ways to buffer the human impacts on it. "Atmospheric Aerosol and Radiation Dispersion: A Study of Hygroscopicity" was my TFG's title. The successful outcome of this project wouldn't have been 
-         possible without the support of some of my colleagues at the Applied Physics Department. All the effort put into this final project paid off after obtaining a honors degree with a mark of 9,3. 
-         Finally, my major's weighted average record stood at 8,54.  
+         possible without the support of some of my colleagues at the Applied Physics Department. All the effort put into this final project paid off after obtaining a honors degree with a mark of 9.3. 
+         Finally, my major's weighted average stood at 8.54, resulting in an award for the best academic record during the 2019-2023 course.
         </p>
         <p>Finally, regarding my language skills, I've got a B2 Level in Valenciano and a C1 CEFR Level in English.</p>
       <a href= "./CV/CV(EN).pdf" download  type="button" class="cta">Download CV</a>
@@ -197,21 +235,21 @@
     <div><h1 class = "section-title">Contact<span>info</span></h1></div>
     <div class="contact-items">
       <div class="contact-item">
-        <div class="icon"><img src="https://img.icons8.com/?size=1x&id=dXdyQ8-cWXAs&format=png"/></div>
+        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/2936/2936151.png"/></div>
         <div class="contact-info">
           <h1>Phone</h1>
           <h2>+34 618 375 998</h2>
         </div>
       </div>
       <div class="contact-item">
-        <div class="icon"><img src="https://img.icons8.com/?size=1x&id=108813&format=png"/></div>
+        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/2875/2875394.png"/></div>
         <div class="contact-info">
           <h1>Email</h1>
           <h2>gabrielfutsal3@gmail.com</h2>
         </div>
       </div>
       <div class="contact-item">
-        <div class="icon"><img src="https://img.icons8.com/?size=1x&id=115626&format=png"/></div>
+        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/128/854/854929.png"/></div>
         <div class="contact-info">
           <h1>Address</h1>
           <h2>Petrer, Alicante, Spain</h2>
@@ -245,7 +283,7 @@
         </a><!-- Vamos a poner las imágenes de redes sociales y que sean clickables para que puedan ir a nuestro perfil social -->
       </div>
     </div>
-    <p>Copyright @ 2023 Gabriel. All rights reserved</p>
+    <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Gabriel. All Rights Reserved</p>
   </div>
  </section>
  <!-- End Footer -->

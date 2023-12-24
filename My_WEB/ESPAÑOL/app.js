@@ -30,3 +30,4 @@ hamburger.addEventListener("click",()=>{
  });/* (Caso Móvil y Tablet) Aplicamos lo mismo que en el menú de la hamburguesa, que al presionar sobre ella nos aparece y 
   desaparece el menú. En este caso, cuando estemos dentro del menú cada vez que le demos a alguna de las palabras 
   nos sacará del menú y nos llevará al sitio donde hayamos clickeado. */
+

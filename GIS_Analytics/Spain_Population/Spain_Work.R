@@ -6,6 +6,7 @@ library(readxl)
 library(janitor)
 library(maps)
 
+
 ##Provinces
 provinces <- esp_get_prov_siane() 
  
@@ -119,6 +120,8 @@ leaflet() %>%
             values = ~city_type,
             title = cities_legend(10),
             opacity = 1)
+
+
  
   
               
