@@ -980,8 +980,7 @@ Durante el 50% de la animación, ocupará todo el texto y al llegar al 100% desa
         margin-top: 10px;
     }
     #contact .section-title{
-        margin: 0 auto;
+        margin: 40px 0px;
     }
-
 }
 /* End Media Query For Desktop View */
